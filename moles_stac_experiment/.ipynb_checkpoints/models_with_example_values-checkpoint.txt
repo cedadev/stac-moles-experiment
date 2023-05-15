@@ -1,0 +1,219 @@
+cedamoles_app.review
+	reviewer: 7
+	reviewFrequency: yearly
+	reviewStatus: required
+	relatedTo: 873
+	reviewNotes: []
+cedamoles_app.onlineresource
+	applicationProfile: None
+	function: documentation
+	internalResourceType: None
+	linkage: http://dx.doi.org/10.1002/joc.3711
+	name: Harris, I., Jones, P.D., Osborn, T.J. and Lister, D.H. (2014), Updated high-resolution grids of monthly climatic observations – the CRU TS3.10 Dataset. Int. J. Climatol., 34: 623–642. doi:10.1002/joc.3711
+	description: None
+	relatedTo: 26978
+cedamoles_app.phenomenon
+	names: [8327]
+	terms: [12644]
+cedamoles_app.project
+	title: ECMWF Trajectories project
+	abstract: These data are produced at the ECMWF as part of a special project run by Prof. Brian Hoskins and Dr. Paul Berrisford of Reading University. The project is part of the Joint Diagnostics Project (JDP) between Reading University, The UK Meteorological Office and ECMWF (European Centre for Medium Range Weather Forecasts). The aim of the project is to provide a database of routine back trajectories.
+	publicationState: published
+	parentProject: None
+	keywords: 
+	status: 
+	imageDetails: []
+	observationCollection: [6419]
+cedamoles_app.dqconformanceresult
+	explanation: Data are from the Met Office's operational upper air network
+	passesTest: True
+	resultTitle: CEDA Data Quality Statement
+	date: 2014-04-01
+cedamoles_app.responsiblepartyinfo
+	priority: 3
+	party: 953
+	role: author
+	relatedTo: 26978
+cedamoles_app.vocabularyterm
+	vocabService: clipc_skos_vocab
+	uri: http://vocab-test.ceda.ac.uk/collection/cci/org/org19
+	resolvedTerm: The Geological Survey of Denmark and Greenland
+cedamoles_app.identifier
+	url: http://dx.doi.org/10.5285/38296ae73f3b44f5b8d66dcc3ed398bd
+	relatedTo: 25941
+	identifierType: doi
+	shortUrl: 
+cedamoles_app.relatedobservationinfo
+	subjectObservation: 26858
+	relationType: IsNewVersionOf
+	objectObservation: 25066
+cedamoles_app.compositeprocess
+	title: Composite Process for: Data from ECMWF trajectory model at ECMWF Computer for the ECMWF Trajectories project Project
+	abstract: This process is comprised of multiple procedures: 1. Computation: ECMWF trajectory model deployed on ECMWF Computer; 
+
+	computationComponent: [6423]
+	acquisitionComponent: []
+cedamoles_app.observation
+	title: ECMWF trajectories model data for acsoe
+	abstract: Datasets of 5 day back trajectories have been computed on a routine basis using analyses from the European Centre for Medium Range Weather Forecasting (ECMWF). The three components of the wind and surface pressure over three launch grids covering the UK, the mid-Atlantic storm track region and the eastern USA, plus back trajectories from field campaign instrument sites were used to output datasets consisting of latitude, longitude and pressure of the trajectory every 30 minutes.
+
+This dataset contains ECMWF trajectories model data for acsoe.
+	latestDataUpdateTime: None
+	updateFrequency: asNeeded
+	dataLineage: Trajectories generated at the Reading University based on ECMWF data. Initially done in support of the NERC ACSOE programme. Data passed on to the BADC for archiving.
+	removedDataReason: 
+	keywords: ECMWF, model, trajectories
+	publicationState: published
+	nonGeographicFlag: False
+	geographicExtent: 1
+	language: English
+	permission: 85
+	resolution: 
+	status: completed
+	verticalExtent: None
+	result_field: 19355
+	timePeriod: None
+	resultQuality: 1696
+	dataPublishedTime: 2006-12-10T15:14:03
+	doiPublishedTime: None
+	removedDataTime: None
+	validTimePeriod: None
+	procedureAcquisition: None
+	procedureComputation: None
+	procedureCompositeProcess: 6424
+	featureOfInterest: 
+	imageDetails: [54]
+	discoveryKeywords: []
+	externalCitations: []
+	projects: [6422]
+	inputParameter: []
+	inspireTheme: []
+	topicCategory: []
+	phenomena: []
+	vocabularyKeywords: []
+cedamoles_app.result
+	curationCategory: A
+	dataPath: /badc/ecmwf-trj/data/acsoe_from_grids
+	numberOfFiles: 0
+	volume: 0
+	fileFormat: Data are ASCII formatted
+	storageStatus: online
+	storageLocation: internal
+cedamoles_app.phenomenonterm
+	label: units
+	value: hourly average O2 concentraion in per meg. Date_and_Time is start of the hour
+	vocabulary: 
+cedamoles_app.geographicboundingbox
+	bboxName: 
+	eastBoundLongitude: 0.058
+	northBoundLatitude: 52.7
+	westBoundLongitude: 0.058
+	southBoundLatitude: 52.7
+cedamoles_app.mobileplatformoperation
+	title: Met Office C-130 Hercules Aircraft Flight A750
+	abstract: Met Office C-130 Hercules Aircraft Flight A750 on the 5th May 2000. This flight was from Boscombe to Prestwick.
+	platform_field: 434
+	location: 911
+	status: completed
+	operationTime: 3824
+	childOperation: None
+cedamoles_app.observationcollection
+	title: Ensemble of 5 Day Air Parcel Back Trajectories Computed by the European Centre for Medium Range Weather Forecasting (ECMWF)
+	abstract: This dataset collection contains datasets of 5 day back trajectories have been computed on a routine basis using analyses from the European Centre for Medium Range Weather Forecasting (ECMWF). The three components of the wind and surface pressure over three launch grids covering the UK, the mid-Atlantic storm track region and the eastern USA, plus back trajectories from field campaign instrument sites were used to output datasets consisting of latitude, longitude and pressure of the trajectory every 30 minutes.
+	keywords: ECMWF, model, trajectories
+	publicationState: published
+	dataPublishedTime: 2006-12-10T03:02:10
+	doiPublishedTime: None
+	imageDetails: [54]
+	discoveryKeywords: []
+	externalCitations: []
+	member: [19330, 19332, 19334, 19336, 19338, 19340, 19342, 19344, 19346, 13971, 6420, 19350, 19352, 19348, 19354]
+cedamoles_app.referenceable
+	uuid: 8a722f1b415045dc8be1b563af23f4fa
+	short_code: result
+cedamoles_app.party
+	firstName: Ian C
+	lastName: Harris
+	partyType: individual
+	description: Research Associate in Dendroclimatology, climate scenario development, data manipulation and visualisation, programming.
+
+Ian is also often cited as Ian (Harry) Harris.
+
+	deliveryPoint: University of East Anglia Climatic Research Unit (CRU)
+	administrativeArea: 
+	city: Norwich
+	country: United Kingdom
+	postalCode: 
+	electronicEmailAddress: i.harris@uea.ac.uk
+	phone: 
+	onlineResource: https://www.uea.ac.uk/environmental-sciences/people/profile/i-harris
+cedamoles_app.computation
+	title: ECMWF trajectory model deployed on ECMWF Computer
+	abstract: This computation involved: ECMWF trajectory model deployed on ECMWF Computer.
+	keywords: 
+	inputDescription: None
+	outputDescription: None
+	softwareReference: None
+	imageDetails: []
+cedamoles_app.verticalextent
+	highestLevelBound: 11500.0
+	lowestLevelBound: 30.0
+	units: m
+cedamoles_app.discoveryserviceid
+	name: NDGO0005
+cedamoles_app.note
+	comments: This data has been superceded by phase 2 CCI cloud data and has been removed from the archive.
+	commentator: 524
+	relatedRecord: 13281
+	date: 2017-06-20T17:41:31
+cedamoles_app.drsdataset
+	drsId: cmip5.output1.MPI-M.MPI-ESM-LR.decadal2004.mon.seaIce.OImon.r9i1p1.v20120529
+	version: v20120529
+	directory: /badc/cmip5/data/cmip5/output1/MPI-M/MPI-ESM-LR/decadal2004/mon/seaIce/OImon/r9i1p1/v20120529
+	relatedTo: 23024
+cedamoles_app.constraints
+	useLimitation: 
+	accessConstraints: 
+	accessCategory: restricted
+	accessRoles: microscope
+	licenceURL: http://licences.ceda.ac.uk/image/data_access_condition/microscope.pdf
+	label: None
+cedamoles_app.instrument
+	title: Met Office: Vaisala CL31 Ceilometer
+	abstract: The Met Office own a number of Vaisala CL31 ceilometers used for detecting cloud base heights and also for obtaining backscatter profiles to aid ash cloud detection.  The CL31 employs a pulsed diode laser LIDAR (light detection and ranging) technology, which enables it to detect three cloud layers simultaneously.
+
+Fast measurement helps to detect thin cloud patches below a solid cloud base. The CL31 provides a full backscatter profile for data visualization and research purpose. The CL31 beam can be directed either vertically or tilted. The tilting option together with the novel optics design provides enhanced performance during precipitation by improving the protection given by the shield. In the measurement unit, a tilt angle sensor automatically corrects the measured cloud distance reading to vertical cloud base height. 
+	keywords: Met Office, lidar, ceilometer, ash
+	instrumentType: lidar
+	imageDetails: [69]
+	subInstrument: []
+cedamoles_app.imagedetails
+	linkage: http://www.ceda.ac.uk/static/media/logos/nceo_logo.jpg
+	fileName: NCEO logo
+	fileDescription: National Centre for Earth Observation (NCEO) Logo
+	imageConstraints: None
+cedamoles_app.phenomenonname
+	name: O2_permeg
+cedamoles_app.platform
+	title: UPMC-SA Mystere aircraft
+	abstract: Aircraft run by the University Pierre et Marie Curie (UPMC), Service d'Aeronomie (SA), (part of CNRS) France.
+	keywords: 
+	platformType: aircraft
+	location: None
+	imageDetails: []
+	childPlatform: []
+cedamoles_app.timeperiod
+	startTime: 1999-07-06T12:00:00
+	endTime: 1999-08-20T12:00:00
+cedamoles_app.acquisition
+	title: Acquisition Process for: Met Office, Capel Dewi, Vaisala Radian LAP3000 915 MHz wind profiler vertical wind profiles (1999 - 2002)
+	abstract: This acquisition is comprised of the following: INSTRUMENTS: Isle of Man: Met Office Windprofiler 915MHz; PLATFORMS: Natural Environment Research Council (NERC) Mesosphere-Stratosphere-Troposphere (MST) Radar Facility, Capel Dewi, UK; 
+	outputDescription: None
+	imageDetails: []
+	independentInstrument: []
+	mobilePlatformOperation: []
+cedamoles_app.migrationproperty
+	ob_ref: 873
+	key: moles2.provider
+	value: badc.nerc.ac.uk
+	modified: 2014-09-28

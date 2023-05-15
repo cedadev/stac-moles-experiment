@@ -1,0 +1,242 @@
+cedamoles_app.acquisition
+	title: <class 'str'>
+	abstract: <class 'str'>
+	outputDescription: <class 'NoneType'>
+	imageDetails: <class 'list'>
+	independentInstrument: <class 'list'>
+	mobilePlatformOperation: <class 'list'>
+
+cedamoles_app.compositeprocess
+	title: <class 'str'>
+	abstract: <class 'str'>
+	computationComponent: <class 'list'>
+	acquisitionComponent: <class 'list'>
+
+cedamoles_app.computation
+	title: <class 'str'>
+	abstract: <class 'str'>
+	keywords: <class 'str'>
+	inputDescription: <class 'NoneType'>
+	outputDescription: <class 'NoneType'>
+	softwareReference: <class 'NoneType'>
+	imageDetails: <class 'list'>
+
+cedamoles_app.constraints
+	useLimitation: <class 'str'>
+	accessConstraints: <class 'str'>
+	accessCategory: <class 'str'>
+	accessRoles: <class 'str'>
+	licenceURL: <class 'str'>
+	label: <class 'NoneType'>
+
+cedamoles_app.discoveryserviceid
+	name: <class 'str'>
+
+cedamoles_app.dqconformanceresult
+	explanation: <class 'str'>
+	passesTest: <class 'bool'>
+	resultTitle: <class 'str'>
+	date: <class 'str'>
+
+cedamoles_app.drsdataset
+	drsId: <class 'str'>
+	version: <class 'str'>
+	directory: <class 'str'>
+	relatedTo: <class 'int'>
+
+cedamoles_app.geographicboundingbox
+	bboxName: <class 'str'>
+	eastBoundLongitude: <class 'float'>
+	northBoundLatitude: <class 'float'>
+	westBoundLongitude: <class 'float'>
+	southBoundLatitude: <class 'float'>
+
+cedamoles_app.identifier
+	url: <class 'str'>
+	relatedTo: <class 'int'>
+	identifierType: <class 'str'>
+	shortUrl: <class 'str'>
+
+cedamoles_app.imagedetails
+	linkage: <class 'str'>
+	fileName: <class 'str'>
+	fileDescription: <class 'str'>
+	imageConstraints: <class 'NoneType'>
+
+cedamoles_app.instrument
+	title: <class 'str'>
+	abstract: <class 'str'>
+	keywords: <class 'str'>
+	instrumentType: <class 'str'>
+	imageDetails: <class 'list'>
+	subInstrument: <class 'list'>
+
+cedamoles_app.migrationproperty
+	ob_ref: <class 'int'>
+	key: <class 'str'>
+	value: <class 'str'>
+	modified: <class 'str'>
+
+cedamoles_app.mobileplatformoperation
+	title: <class 'str'>
+	abstract: <class 'str'>
+	platform_field: <class 'int'>
+	location: <class 'int'>
+	status: <class 'str'>
+	operationTime: <class 'int'>
+	childOperation: <class 'NoneType'>
+
+cedamoles_app.note
+	comments: <class 'str'>
+	commentator: <class 'int'>
+	relatedRecord: <class 'int'>
+	date: <class 'str'>
+
+cedamoles_app.observation
+	title: <class 'str'>
+	abstract: <class 'str'>
+	latestDataUpdateTime: <class 'NoneType'>
+	updateFrequency: <class 'str'>
+	dataLineage: <class 'str'>
+	removedDataReason: <class 'str'>
+	keywords: <class 'str'>
+	publicationState: <class 'str'>
+	nonGeographicFlag: <class 'bool'>
+	geographicExtent: <class 'int'>
+	language: <class 'str'>
+	permission: <class 'int'>
+	resolution: <class 'str'>
+	status: <class 'str'>
+	verticalExtent: <class 'NoneType'>
+	result_field: <class 'int'>
+	timePeriod: <class 'NoneType'>
+	resultQuality: <class 'int'>
+	dataPublishedTime: <class 'str'>
+	doiPublishedTime: <class 'NoneType'>
+	removedDataTime: <class 'NoneType'>
+	validTimePeriod: <class 'NoneType'>
+	procedureAcquisition: <class 'NoneType'>
+	procedureComputation: <class 'NoneType'>
+	procedureCompositeProcess: <class 'int'>
+	featureOfInterest: <class 'str'>
+	imageDetails: <class 'list'>
+	discoveryKeywords: <class 'list'>
+	externalCitations: <class 'list'>
+	projects: <class 'list'>
+	inputParameter: <class 'list'>
+	inspireTheme: <class 'list'>
+	topicCategory: <class 'list'>
+	phenomena: <class 'list'>
+	vocabularyKeywords: <class 'list'>
+
+cedamoles_app.observationcollection
+	title: <class 'str'>
+	abstract: <class 'str'>
+	keywords: <class 'str'>
+	publicationState: <class 'str'>
+	dataPublishedTime: <class 'str'>
+	doiPublishedTime: <class 'NoneType'>
+	imageDetails: <class 'list'>
+	discoveryKeywords: <class 'list'>
+	externalCitations: <class 'list'>
+	member: <class 'list'>
+
+cedamoles_app.onlineresource
+	applicationProfile: <class 'NoneType'>
+	function: <class 'str'>
+	internalResourceType: <class 'NoneType'>
+	linkage: <class 'str'>
+	name: <class 'str'>
+	description: <class 'NoneType'>
+	relatedTo: <class 'int'>
+
+cedamoles_app.party
+	firstName: <class 'str'>
+	lastName: <class 'str'>
+	partyType: <class 'str'>
+	description: <class 'str'>
+	deliveryPoint: <class 'str'>
+	administrativeArea: <class 'str'>
+	city: <class 'str'>
+	country: <class 'str'>
+	postalCode: <class 'str'>
+	electronicEmailAddress: <class 'str'>
+	phone: <class 'str'>
+	onlineResource: <class 'str'>
+
+cedamoles_app.phenomenon
+	names: <class 'list'>
+	terms: <class 'list'>
+
+cedamoles_app.phenomenonname
+	name: <class 'str'>
+
+cedamoles_app.phenomenonterm
+	label: <class 'str'>
+	value: <class 'str'>
+	vocabulary: <class 'str'>
+
+cedamoles_app.platform
+	title: <class 'str'>
+	abstract: <class 'str'>
+	keywords: <class 'str'>
+	platformType: <class 'str'>
+	location: <class 'NoneType'>
+	imageDetails: <class 'list'>
+	childPlatform: <class 'list'>
+
+cedamoles_app.project
+	title: <class 'str'>
+	abstract: <class 'str'>
+	publicationState: <class 'str'>
+	parentProject: <class 'NoneType'>
+	keywords: <class 'str'>
+	status: <class 'str'>
+	imageDetails: <class 'list'>
+	observationCollection: <class 'list'>
+
+cedamoles_app.referenceable
+	uuid: <class 'str'>
+	short_code: <class 'str'>
+
+cedamoles_app.relatedobservationinfo
+	subjectObservation: <class 'int'>
+	relationType: <class 'str'>
+	objectObservation: <class 'int'>
+
+cedamoles_app.responsiblepartyinfo
+	priority: <class 'int'>
+	party: <class 'int'>
+	role: <class 'str'>
+	relatedTo: <class 'int'>
+
+cedamoles_app.result
+	curationCategory: <class 'str'>
+	dataPath: <class 'str'>
+	numberOfFiles: <class 'int'>
+	volume: <class 'int'>
+	fileFormat: <class 'str'>
+	storageStatus: <class 'str'>
+	storageLocation: <class 'str'>
+
+cedamoles_app.review
+	reviewer: <class 'int'>
+	reviewFrequency: <class 'str'>
+	reviewStatus: <class 'str'>
+	relatedTo: <class 'int'>
+	reviewNotes: <class 'list'>
+
+cedamoles_app.timeperiod
+	startTime: <class 'str'>
+	endTime: <class 'str'>
+
+cedamoles_app.verticalextent
+	highestLevelBound: <class 'float'>
+	lowestLevelBound: <class 'float'>
+	units: <class 'str'>
+
+cedamoles_app.vocabularyterm
+	vocabService: <class 'str'>
+	uri: <class 'str'>
+	resolvedTerm: <class 'str'>
+

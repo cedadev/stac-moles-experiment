@@ -1,0 +1,249 @@
+cedamoles_app.acquisition
+	title: str
+	abstract: str
+	outputDescription: NoneType
+	imageDetails: ['imagedetails, phenomenonterm, phenomenonname, timeperiod, review']
+	independentInstrument: ['referenceable, instrument, phenomenonterm, phenomenonname, phenomenon', 'referenceable, instrument, phenomenonname', 'referenceable, instrument, phenomenonname, phenomenon']
+	mobilePlatformOperation: ['dqconformanceresult, timeperiod, phenomenon, referenceable, mobileplatformoperation', 'referenceable, mobileplatformoperation, phenomenonterm, phenomenon, dqconformanceresult, timeperiod']
+	uuid: str
+
+cedamoles_app.compositeprocess
+	title: str
+	abstract: str
+	computationComponent: ['referenceable, computation']
+	acquisitionComponent: ['referenceable, acquisition']
+	uuid: str
+
+cedamoles_app.computation
+	title: str
+	abstract: str
+	keywords: str
+	inputDescription: NoneType
+	outputDescription: NoneType
+	softwareReference: NoneType
+	imageDetails: ['geographicboundingbox, phenomenonterm, referenceable, result, timeperiod, phenomenonname, dqconformanceresult, imagedetails']
+
+cedamoles_app.constraints
+	useLimitation: str
+	accessConstraints: str
+	accessCategory: str
+	accessRoles: str
+	licenceURL: str
+	label: str
+
+cedamoles_app.discoveryserviceid
+	name: str
+
+cedamoles_app.dqconformanceresult
+	explanation: str
+	passesTest: bool
+	resultTitle: str
+	date: str
+
+cedamoles_app.drsdataset
+	drsId: str
+	version: str
+	directory: str
+	relatedTo: referenceable, observation
+
+cedamoles_app.geographicboundingbox
+	bboxName: str
+	eastBoundLongitude: float
+	northBoundLatitude: float
+	westBoundLongitude: float
+	southBoundLatitude: float
+
+cedamoles_app.identifier
+	url: str
+	relatedTo: referenceable, observation
+	identifierType: str
+	shortUrl: str
+
+cedamoles_app.imagedetails
+	linkage: str
+	fileName: str
+	fileDescription: str
+	imageConstraints: phenomenonterm, dqconformanceresult, constraints, phenomenonname, party
+
+cedamoles_app.instrument
+	title: str
+	abstract: str
+	keywords: str
+	instrumentType: str
+	imageDetails: ['geographicboundingbox, phenomenonterm, referenceable, result, timeperiod, phenomenonname, dqconformanceresult, imagedetails']
+	subInstrument: list
+	uuid: str
+
+cedamoles_app.migrationproperty
+	ob_ref: dqconformanceresult, referenceable, phenomenon, observation
+	key: str
+	value: str
+	modified: str
+
+cedamoles_app.mobileplatformoperation
+	title: str
+	abstract: str
+	platform_field: phenomenonname, referenceable, geographicboundingbox, timeperiod, platform
+	location: geographicboundingbox, phenomenon
+	status: str
+	operationTime: timeperiod, phenomenonname
+	childOperation: NoneType
+	uuid: str
+
+cedamoles_app.note
+	comments: str
+	commentator: geographicboundingbox, party
+	relatedRecord: phenomenon, phenomenonterm, referenceable, observation
+	date: str
+
+cedamoles_app.observation
+	title: str
+	abstract: str
+	latestDataUpdateTime: str
+	updateFrequency: str
+	dataLineage: str
+	removedDataReason: str
+	keywords: str
+	publicationState: str
+	nonGeographicFlag: bool
+	geographicExtent: phenomenonname, verticalextent, phenomenonterm, geographicboundingbox, party
+	language: str
+	permission: phenomenonterm, geographicboundingbox, constraints, referenceable, timeperiod, observation
+	resolution: str
+	status: str
+	verticalExtent: geographicboundingbox, phenomenonterm, verticalextent, dqconformanceresult, phenomenonname, party
+	result_field: referenceable, result, phenomenonterm, phenomenon
+	timePeriod: timeperiod, phenomenonname
+	resultQuality: dqconformanceresult, geographicboundingbox
+	dataPublishedTime: str
+	doiPublishedTime: str
+	removedDataTime: NoneType
+	validTimePeriod: timeperiod, phenomenonterm, phenomenon
+	procedureAcquisition: referenceable, acquisition, phenomenon, timeperiod
+	procedureComputation: referenceable, computation, phenomenonterm, phenomenonname, dqconformanceresult, timeperiod
+	procedureCompositeProcess: referenceable, compositeprocess
+	featureOfInterest: str
+	imageDetails: ['phenomenonname, imagedetails, timeperiod, phenomenonterm']
+	discoveryKeywords: ['geographicboundingbox, phenomenon, discoveryserviceid']
+	externalCitations: list
+	projects: ['referenceable, project']
+	inputParameter: list
+	inspireTheme: list
+	topicCategory: list
+	phenomena: ['phenomenon, referenceable, observation', 'phenomenon, referenceable, result']
+	vocabularyKeywords: ['referenceable, vocabularyterm, acquisition']
+	uuid: str
+
+cedamoles_app.observationcollection
+	title: str
+	abstract: str
+	keywords: str
+	publicationState: str
+	dataPublishedTime: str
+	doiPublishedTime: str
+	imageDetails: ['phenomenonname, imagedetails, timeperiod, phenomenonterm']
+	discoveryKeywords: ['geographicboundingbox, phenomenon, discoveryserviceid']
+	externalCitations: list
+	member: ['referenceable, observation', 'referenceable, observation, phenomenonname', 'referenceable, observation, phenomenonterm, phenomenon']
+	uuid: str
+
+cedamoles_app.onlineresource
+	applicationProfile: NoneType
+	function: str
+	internalResourceType: NoneType
+	linkage: str
+	name: str
+	description: NoneType
+	relatedTo: referenceable, observation
+
+cedamoles_app.party
+	firstName: str
+	lastName: str
+	partyType: str
+	description: str
+	deliveryPoint: str
+	administrativeArea: str
+	city: str
+	country: str
+	postalCode: str
+	electronicEmailAddress: str
+	phone: str
+	onlineResource: str
+
+cedamoles_app.phenomenon
+	names: ['phenomenonname']
+	terms: ['phenomenonterm, referenceable, acquisition']
+
+cedamoles_app.phenomenonname
+	name: str
+
+cedamoles_app.phenomenonterm
+	label: str
+	value: str
+	vocabulary: str
+
+cedamoles_app.platform
+	title: str
+	abstract: str
+	keywords: str
+	platformType: str
+	location: geographicboundingbox
+	imageDetails: ['imagedetails, dqconformanceresult, phenomenonname, phenomenonterm']
+	childPlatform: list
+	uuid: str
+
+cedamoles_app.project
+	title: str
+	abstract: str
+	publicationState: str
+	parentProject: phenomenonname, referenceable, phenomenonterm, project
+	keywords: str
+	status: str
+	imageDetails: ['geographicboundingbox, phenomenonterm, referenceable, result, timeperiod, phenomenonname, dqconformanceresult, imagedetails']
+	observationCollection: ['referenceable, observationcollection']
+	uuid: str
+
+cedamoles_app.referenceable
+
+cedamoles_app.relatedobservationinfo
+	subjectObservation: referenceable, observation
+	relationType: str
+	objectObservation: referenceable, observation
+
+cedamoles_app.responsiblepartyinfo
+	priority: imagedetails, phenomenonname, phenomenonterm, geographicboundingbox
+	party: phenomenonterm, dqconformanceresult, geographicboundingbox, party
+	role: str
+	relatedTo: referenceable, observation
+
+cedamoles_app.result
+	curationCategory: str
+	dataPath: str
+	numberOfFiles: phenomenonname, referenceable, phenomenonterm, project
+	volume: int
+	fileFormat: str
+	storageStatus: str
+	storageLocation: str
+	uuid: str
+
+cedamoles_app.review
+	reviewer: phenomenonname, phenomenonterm, constraints, party
+	reviewFrequency: str
+	reviewStatus: str
+	relatedTo: dqconformanceresult, referenceable, phenomenon, observation
+	reviewNotes: list
+
+cedamoles_app.timeperiod
+	startTime: str
+	endTime: str
+
+cedamoles_app.verticalextent
+	highestLevelBound: float
+	lowestLevelBound: float
+	units: str
+
+cedamoles_app.vocabularyterm
+	vocabService: str
+	uri: str
+	resolvedTerm: str
+

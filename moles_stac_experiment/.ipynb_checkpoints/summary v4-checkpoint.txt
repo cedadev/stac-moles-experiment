@@ -1,0 +1,224 @@
+cedamoles_app.acquisition
+	title: str
+	abstract: str
+	outputDescription: NoneType
+	imageDetails: ['dict']
+	independentInstrument: ['instrument, phenomenonname, phenomenon', 'instrument, phenomenonterm, phenomenonname, phenomenon', 'instrument, phenomenonname']
+	mobilePlatformOperation: ['mobileplatformoperation, phenomenonterm, phenomenon, timeperiod', 'timeperiod, phenomenon, mobileplatformoperation']
+	uuid: str
+
+cedamoles_app.compositeprocess
+	title: str
+	abstract: str
+	computationComponent: ['computation']
+	acquisitionComponent: ['acquisition']
+	uuid: str
+
+cedamoles_app.computation
+	title: str
+	abstract: str
+	keywords: str
+	inputDescription: NoneType
+	outputDescription: NoneType
+	softwareReference: NoneType
+	imageDetails: ['dict']
+
+cedamoles_app.drsdataset
+	drsId: str
+	version: str
+	directory: str
+	relatedTo: observation
+
+cedamoles_app.geographicboundingbox
+	bboxName: str
+	eastBoundLongitude: float
+	northBoundLatitude: float
+	westBoundLongitude: float
+	southBoundLatitude: float
+
+cedamoles_app.identifier
+	url: str
+	relatedTo: observation
+	identifierType: str
+	shortUrl: str
+
+cedamoles_app.instrument
+	title: str
+	abstract: str
+	keywords: str
+	instrumentType: str
+	imageDetails: ['dict']
+	subInstrument: list
+	uuid: str
+
+cedamoles_app.migrationproperty
+	ob_ref: phenomenon, observation
+	key: str
+	value: str
+	modified: str
+
+cedamoles_app.mobileplatformoperation
+	title: str
+	abstract: str
+	platform_field: phenomenonname, geographicboundingbox, timeperiod, platform
+	location: geographicboundingbox, phenomenon
+	status: str
+	operationTime: timeperiod, phenomenonname
+	childOperation: NoneType
+	uuid: str
+
+cedamoles_app.note
+	comments: str
+	commentator: geographicboundingbox, party
+	relatedRecord: phenomenon, phenomenonterm, observation
+	date: str
+
+cedamoles_app.observation
+	title: str
+	abstract: str
+	latestDataUpdateTime: str
+	updateFrequency: str
+	dataLineage: str
+	removedDataReason: str
+	keywords: str
+	publicationState: str
+	nonGeographicFlag: bool
+	geographicExtent: phenomenonname, verticalextent, phenomenonterm, geographicboundingbox, party
+	language: str
+	permission: dict
+	resolution: str
+	status: str
+	verticalExtent: geographicboundingbox, phenomenonterm, verticalextent, phenomenonname, party
+	result_field: result, phenomenonterm, phenomenon
+	timePeriod: timeperiod, phenomenonname
+	resultQuality: dict
+	dataPublishedTime: str
+	doiPublishedTime: str
+	removedDataTime: NoneType
+	validTimePeriod: timeperiod, phenomenonterm, phenomenon
+	procedureAcquisition: acquisition, phenomenon, timeperiod
+	procedureComputation: computation, phenomenonterm, phenomenonname, timeperiod
+	procedureCompositeProcess: compositeprocess
+	featureOfInterest: str
+	imageDetails: ['dict']
+	discoveryKeywords: ['dict']
+	externalCitations: list
+	projects: ['project']
+	inputParameter: list
+	inspireTheme: list
+	topicCategory: list
+	phenomena: ['phenomenon, observation', 'phenomenon, result']
+	vocabularyKeywords: ['vocabularyterm, acquisition']
+	uuid: str
+
+cedamoles_app.observationcollection
+	title: str
+	abstract: str
+	keywords: str
+	publicationState: str
+	dataPublishedTime: str
+	doiPublishedTime: str
+	imageDetails: ['dict']
+	discoveryKeywords: ['dict']
+	externalCitations: list
+	member: ['observation, phenomenonname', 'observation', 'observation, phenomenonterm, phenomenon']
+	uuid: str
+
+cedamoles_app.onlineresource
+	applicationProfile: NoneType
+	function: str
+	internalResourceType: NoneType
+	linkage: str
+	name: str
+	description: NoneType
+	relatedTo: observation
+
+cedamoles_app.party
+	firstName: str
+	lastName: str
+	partyType: str
+	description: str
+	deliveryPoint: str
+	administrativeArea: str
+	city: str
+	country: str
+	postalCode: str
+	electronicEmailAddress: str
+	phone: str
+	onlineResource: str
+
+cedamoles_app.phenomenon
+	names: ['phenomenonname']
+	terms: ['phenomenonterm, acquisition']
+
+cedamoles_app.phenomenonname
+	name: str
+
+cedamoles_app.phenomenonterm
+	label: str
+	value: str
+	vocabulary: str
+
+cedamoles_app.platform
+	title: str
+	abstract: str
+	keywords: str
+	platformType: str
+	location: geographicboundingbox
+	imageDetails: ['dict']
+	childPlatform: list
+	uuid: str
+
+cedamoles_app.project
+	title: str
+	abstract: str
+	publicationState: str
+	parentProject: phenomenonname, phenomenonterm, project
+	keywords: str
+	status: str
+	imageDetails: ['dict']
+	observationCollection: ['observationcollection']
+	uuid: str
+
+cedamoles_app.relatedobservationinfo
+	subjectObservation: observation
+	relationType: str
+	objectObservation: observation
+
+cedamoles_app.responsiblepartyinfo
+	priority: phenomenonname, phenomenonterm, geographicboundingbox
+	party: phenomenonterm, geographicboundingbox, party
+	role: str
+	relatedTo: observation
+
+cedamoles_app.result
+	curationCategory: str
+	dataPath: str
+	numberOfFiles: phenomenonname, phenomenonterm, project
+	volume: int
+	fileFormat: str
+	storageStatus: str
+	storageLocation: str
+	uuid: str
+
+cedamoles_app.review
+	reviewer: phenomenonname, phenomenonterm, party
+	reviewFrequency: str
+	reviewStatus: str
+	relatedTo: phenomenon, observation
+	reviewNotes: list
+
+cedamoles_app.timeperiod
+	startTime: str
+	endTime: str
+
+cedamoles_app.verticalextent
+	highestLevelBound: float
+	lowestLevelBound: float
+	units: str
+
+cedamoles_app.vocabularyterm
+	vocabService: str
+	uri: str
+	resolvedTerm: str
+

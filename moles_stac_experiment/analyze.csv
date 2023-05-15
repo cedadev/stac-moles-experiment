@@ -1,0 +1,6 @@
+name,size[MB],number_of_models,number_of_fields
+fixture.json.gz,1.959625,64512,510842
+fixture2.json.gz,13.025728,13491,5859867
+fixture3.json.gz,13.294519,13491,5832885
+fixture4.json.gz,13.1145,13491,5791488
+fixture5.json.gz,13.114334,13491,5791478

@@ -1,0 +1,5 @@
+name	size[MB]	number_of_models	number_of_fields
+fixture1.5.json.gz	11.061683	700062	5191996
+fixture2.json.gz	25.697466	33778	10133580
+fixture3.json.gz	25.830988	33778	10066024
+fixture4.json.gz	25.572341	33778	9966847

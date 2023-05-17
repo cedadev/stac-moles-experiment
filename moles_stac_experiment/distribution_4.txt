@@ -1,3 +1,4 @@
+
 instrument: 1346
 instrument/title: 1346
 instrument/abstract: 1346
@@ -9,12 +10,12 @@ instrument/uuid: 1346
 instrument/identifier: 749
 instrument/identifier/url: 749
 instrument/identifier/identifierType: 749
-instrument/identifier/shortUrl: 6
+instrument/identifier/shortUrl: 5
 instrument/onlineResource: 1119
 instrument/onlineResource/function: 1116
 instrument/onlineResource/linkage: 1119
 instrument/onlineResource/name: 1118
-instrument/onlineResource/description: 226
+instrument/onlineResource/description: 225
 instrument/migrationProperty: 329
 instrument/migrationProperty/key: 329
 instrument/migrationProperty/value: 329
@@ -49,23 +50,24 @@ instrument/model: 1346
 instrument/responsiblePartyInfo: 533
 instrument/responsiblePartyInfo/priority: 533
 instrument/responsiblePartyInfo/party: 533
-instrument/responsiblePartyInfo/party/firstName: 158
+instrument/responsiblePartyInfo/party/firstName: 157
 instrument/responsiblePartyInfo/party/lastName: 533
 instrument/responsiblePartyInfo/party/partyType: 533
-instrument/responsiblePartyInfo/party/description: 237
-instrument/responsiblePartyInfo/party/deliveryPoint: 357
-instrument/responsiblePartyInfo/party/administrativeArea: 319
-instrument/responsiblePartyInfo/party/city: 317
-instrument/responsiblePartyInfo/party/country: 318
-instrument/responsiblePartyInfo/party/postalCode: 316
-instrument/responsiblePartyInfo/party/electronicEmailAddress: 401
-instrument/responsiblePartyInfo/party/phone: 307
-instrument/responsiblePartyInfo/party/onlineResource: 318
+instrument/responsiblePartyInfo/party/description: 236
+instrument/responsiblePartyInfo/party/deliveryPoint: 356
+instrument/responsiblePartyInfo/party/administrativeArea: 318
+instrument/responsiblePartyInfo/party/city: 316
+instrument/responsiblePartyInfo/party/country: 317
+instrument/responsiblePartyInfo/party/postalCode: 315
+instrument/responsiblePartyInfo/party/electronicEmailAddress: 400
+instrument/responsiblePartyInfo/party/phone: 306
+instrument/responsiblePartyInfo/party/onlineResource: 317
 instrument/responsiblePartyInfo/role: 533
 instrument/drsDataset: 1319
 instrument/drsDataset/drsId: 1319
 instrument/drsDataset/version: 1319
 instrument/drsDataset/directory: 1319
+
 project: 1490
 project/title: 1490
 project/abstract: 1426
@@ -79,7 +81,7 @@ project/uuid: 1490
 project/identifier: 713
 project/identifier/url: 712
 project/identifier/identifierType: 713
-project/identifier/shortUrl: 104
+project/identifier/shortUrl: 103
 project/migrationProperty: 403
 project/migrationProperty/key: 403
 project/migrationProperty/value: 403
@@ -87,7 +89,7 @@ project/migrationProperty/modified: 403
 project/responsiblePartyInfo: 488
 project/responsiblePartyInfo/priority: 488
 project/responsiblePartyInfo/party: 488
-project/responsiblePartyInfo/party/firstName: 149
+project/responsiblePartyInfo/party/firstName: 148
 project/responsiblePartyInfo/party/lastName: 488
 project/responsiblePartyInfo/party/partyType: 488
 project/responsiblePartyInfo/party/description: 236
@@ -124,7 +126,7 @@ project/reviewNote/date: 1
 project/model: 1490
 project/onlineResource: 1392
 project/onlineResource/function: 1392
-project/onlineResource/internalResourceType: 2
+project/onlineResource/internalResourceType: 1
 project/onlineResource/linkage: 1392
 project/onlineResource/name: 1392
 project/onlineResource/description: 46
@@ -137,6 +139,7 @@ project/drsDataset: 1487
 project/drsDataset/drsId: 1487
 project/drsDataset/version: 1487
 project/drsDataset/directory: 1487
+
 acquisition: 5226
 acquisition/title: 5226
 acquisition/abstract: 5122
@@ -148,7 +151,7 @@ acquisition/uuid: 5226
 acquisition/identifier: 2146
 acquisition/identifier/url: 2146
 acquisition/identifier/identifierType: 2146
-acquisition/identifier/shortUrl: 104
+acquisition/identifier/shortUrl: 103
 acquisition/migrationProperty: 1261
 acquisition/migrationProperty/key: 1261
 acquisition/migrationProperty/value: 1261
@@ -158,14 +161,14 @@ acquisition/review/reviewer: 922
 acquisition/review/reviewer/firstName: 922
 acquisition/review/reviewer/lastName: 922
 acquisition/review/reviewer/partyType: 922
-acquisition/review/reviewer/description: 5
+acquisition/review/reviewer/description: 4
 acquisition/review/reviewer/deliveryPoint: 845
-acquisition/review/reviewer/administrativeArea: 5
-acquisition/review/reviewer/city: 5
-acquisition/review/reviewer/country: 5
-acquisition/review/reviewer/postalCode: 5
+acquisition/review/reviewer/administrativeArea: 4
+acquisition/review/reviewer/city: 4
+acquisition/review/reviewer/country: 4
+acquisition/review/reviewer/postalCode: 4
 acquisition/review/reviewer/electronicEmailAddress: 922
-acquisition/review/reviewer/phone: 5
+acquisition/review/reviewer/phone: 4
 acquisition/review/reviewer/onlineResource: 918
 acquisition/review/reviewFrequency: 922
 acquisition/review/reviewStatus: 922
@@ -183,10 +186,10 @@ acquisition/reviewNote/date: 2
 acquisition/model: 5226
 acquisition/onlineResource: 4527
 acquisition/onlineResource/function: 4505
-acquisition/onlineResource/internalResourceType: 2
+acquisition/onlineResource/internalResourceType: 1
 acquisition/onlineResource/linkage: 4527
 acquisition/onlineResource/name: 4526
-acquisition/onlineResource/description: 524
+acquisition/onlineResource/description: 523
 acquisition/note: 82
 acquisition/note/comments: 82
 acquisition/note/commentator: 82
@@ -195,7 +198,7 @@ acquisition/note/date: 82
 acquisition/responsiblePartyInfo: 2111
 acquisition/responsiblePartyInfo/priority: 2111
 acquisition/responsiblePartyInfo/party: 2111
-acquisition/responsiblePartyInfo/party/firstName: 511
+acquisition/responsiblePartyInfo/party/firstName: 510
 acquisition/responsiblePartyInfo/party/lastName: 2111
 acquisition/responsiblePartyInfo/party/partyType: 2111
 acquisition/responsiblePartyInfo/party/description: 857
@@ -212,6 +215,7 @@ acquisition/drsDataset: 5198
 acquisition/drsDataset/drsId: 5198
 acquisition/drsDataset/version: 5198
 acquisition/drsDataset/directory: 5198
+
 mobileplatformoperation: 1673
 mobileplatformoperation/title: 1673
 mobileplatformoperation/abstract: 1673
@@ -225,18 +229,18 @@ mobileplatformoperation/location/southBoundLatitude: 890
 mobileplatformoperation/status: 1550
 mobileplatformoperation/operationTime: 1533
 mobileplatformoperation/operationTime/startTime: 1533
-mobileplatformoperation/operationTime/endTime: 1519
+mobileplatformoperation/operationTime/endTime: 1518
 mobileplatformoperation/uuid: 1673
 mobileplatformoperation/identifier: 118
 mobileplatformoperation/identifier/url: 118
 mobileplatformoperation/identifier/identifierType: 118
-mobileplatformoperation/identifier/shortUrl: 3
+mobileplatformoperation/identifier/shortUrl: 2
 mobileplatformoperation/onlineResource: 1450
 mobileplatformoperation/onlineResource/function: 1443
-mobileplatformoperation/onlineResource/internalResourceType: 2
+mobileplatformoperation/onlineResource/internalResourceType: 1
 mobileplatformoperation/onlineResource/linkage: 1450
 mobileplatformoperation/onlineResource/name: 1450
-mobileplatformoperation/onlineResource/description: 31
+mobileplatformoperation/onlineResource/description: 30
 mobileplatformoperation/migrationProperty: 64
 mobileplatformoperation/migrationProperty/key: 64
 mobileplatformoperation/migrationProperty/value: 64
@@ -252,15 +256,15 @@ mobileplatformoperation/responsiblePartyInfo/party: 499
 mobileplatformoperation/responsiblePartyInfo/party/firstName: 114
 mobileplatformoperation/responsiblePartyInfo/party/lastName: 499
 mobileplatformoperation/responsiblePartyInfo/party/partyType: 499
-mobileplatformoperation/responsiblePartyInfo/party/description: 258
-mobileplatformoperation/responsiblePartyInfo/party/deliveryPoint: 378
-mobileplatformoperation/responsiblePartyInfo/party/administrativeArea: 334
-mobileplatformoperation/responsiblePartyInfo/party/city: 343
-mobileplatformoperation/responsiblePartyInfo/party/country: 328
-mobileplatformoperation/responsiblePartyInfo/party/postalCode: 332
+mobileplatformoperation/responsiblePartyInfo/party/description: 257
+mobileplatformoperation/responsiblePartyInfo/party/deliveryPoint: 377
+mobileplatformoperation/responsiblePartyInfo/party/administrativeArea: 333
+mobileplatformoperation/responsiblePartyInfo/party/city: 342
+mobileplatformoperation/responsiblePartyInfo/party/country: 327
+mobileplatformoperation/responsiblePartyInfo/party/postalCode: 331
 mobileplatformoperation/responsiblePartyInfo/party/electronicEmailAddress: 416
-mobileplatformoperation/responsiblePartyInfo/party/phone: 329
-mobileplatformoperation/responsiblePartyInfo/party/onlineResource: 361
+mobileplatformoperation/responsiblePartyInfo/party/phone: 328
+mobileplatformoperation/responsiblePartyInfo/party/onlineResource: 360
 mobileplatformoperation/responsiblePartyInfo/role: 499
 mobileplatformoperation/review: 61
 mobileplatformoperation/review/reviewer: 61
@@ -287,6 +291,7 @@ mobileplatformoperation/drsDataset: 1671
 mobileplatformoperation/drsDataset/drsId: 1671
 mobileplatformoperation/drsDataset/version: 1671
 mobileplatformoperation/drsDataset/directory: 1671
+
 result: 9749
 result/curationCategory: 8899
 result/dataPath: 9599
@@ -300,13 +305,13 @@ result/uuid: 9749
 result/identifier: 2017
 result/identifier/url: 2017
 result/identifier/identifierType: 2017
-result/identifier/shortUrl: 121
+result/identifier/shortUrl: 120
 result/onlineResource: 8925
 result/onlineResource/function: 8881
-result/onlineResource/internalResourceType: 2
+result/onlineResource/internalResourceType: 1
 result/onlineResource/linkage: 8925
 result/onlineResource/name: 8922
-result/onlineResource/description: 453
+result/onlineResource/description: 452
 result/note: 58
 result/note/comments: 58
 result/note/commentator: 58
@@ -317,14 +322,14 @@ result/review/reviewer: 703
 result/review/reviewer/firstName: 703
 result/review/reviewer/lastName: 703
 result/review/reviewer/partyType: 703
-result/review/reviewer/description: 5
+result/review/reviewer/description: 4
 result/review/reviewer/deliveryPoint: 630
-result/review/reviewer/administrativeArea: 5
-result/review/reviewer/city: 5
-result/review/reviewer/country: 5
-result/review/reviewer/postalCode: 5
+result/review/reviewer/administrativeArea: 4
+result/review/reviewer/city: 4
+result/review/reviewer/country: 4
+result/review/reviewer/postalCode: 4
 result/review/reviewer/electronicEmailAddress: 703
-result/review/reviewer/phone: 5
+result/review/reviewer/phone: 4
 result/review/reviewer/onlineResource: 699
 result/review/reviewFrequency: 699
 result/review/reviewStatus: 703
@@ -347,7 +352,7 @@ result/migrationProperty/modified: 1163
 result/responsiblePartyInfo: 4184
 result/responsiblePartyInfo/priority: 4184
 result/responsiblePartyInfo/party: 4184
-result/responsiblePartyInfo/party/firstName: 947
+result/responsiblePartyInfo/party/firstName: 946
 result/responsiblePartyInfo/party/lastName: 4184
 result/responsiblePartyInfo/party/partyType: 4184
 result/responsiblePartyInfo/party/description: 1766
@@ -364,6 +369,7 @@ result/drsDataset: 9726
 result/drsDataset/drsId: 9726
 result/drsDataset/version: 9726
 result/drsDataset/directory: 9726
+
 observationcollection: 830
 observationcollection/title: 830
 observationcollection/abstract: 830
@@ -378,12 +384,12 @@ observationcollection/uuid: 830
 observationcollection/identifier: 273
 observationcollection/identifier/url: 273
 observationcollection/identifier/identifierType: 273
-observationcollection/identifier/shortUrl: 15
+observationcollection/identifier/shortUrl: 14
 observationcollection/onlineResource: 714
 observationcollection/onlineResource/function: 713
 observationcollection/onlineResource/linkage: 714
 observationcollection/onlineResource/name: 714
-observationcollection/onlineResource/description: 52
+observationcollection/onlineResource/description: 51
 observationcollection/migrationProperty: 126
 observationcollection/migrationProperty/key: 126
 observationcollection/migrationProperty/value: 126
@@ -418,7 +424,7 @@ observationcollection/note/date: 3
 observationcollection/responsiblePartyInfo: 322
 observationcollection/responsiblePartyInfo/priority: 322
 observationcollection/responsiblePartyInfo/party: 322
-observationcollection/responsiblePartyInfo/party/firstName: 72
+observationcollection/responsiblePartyInfo/party/firstName: 71
 observationcollection/responsiblePartyInfo/party/lastName: 322
 observationcollection/responsiblePartyInfo/party/partyType: 322
 observationcollection/responsiblePartyInfo/party/description: 163
@@ -435,6 +441,7 @@ observationcollection/drsDataset: 827
 observationcollection/drsDataset/drsId: 827
 observationcollection/drsDataset/version: 827
 observationcollection/drsDataset/directory: 827
+
 computation: 3299
 computation/title: 3299
 computation/abstract: 3296
@@ -448,7 +455,7 @@ computation/onlineResource: 3166
 computation/onlineResource/function: 3164
 computation/onlineResource/linkage: 3166
 computation/onlineResource/name: 3166
-computation/onlineResource/description: 50
+computation/onlineResource/description: 49
 computation/migrationProperty: 120
 computation/migrationProperty/key: 120
 computation/migrationProperty/value: 120
@@ -487,11 +494,11 @@ computation/drsDataset/directory: 3298
 computation/identifier: 287
 computation/identifier/url: 287
 computation/identifier/identifierType: 287
-computation/identifier/shortUrl: 8
+computation/identifier/shortUrl: 7
 computation/responsiblePartyInfo: 1574
 computation/responsiblePartyInfo/priority: 1574
 computation/responsiblePartyInfo/party: 1574
-computation/responsiblePartyInfo/party/firstName: 373
+computation/responsiblePartyInfo/party/firstName: 372
 computation/responsiblePartyInfo/party/lastName: 1574
 computation/responsiblePartyInfo/party/partyType: 1574
 computation/responsiblePartyInfo/party/description: 692
@@ -504,6 +511,7 @@ computation/responsiblePartyInfo/party/electronicEmailAddress: 1326
 computation/responsiblePartyInfo/party/phone: 1028
 computation/responsiblePartyInfo/party/onlineResource: 1101
 computation/responsiblePartyInfo/role: 1574
+
 compositeprocess: 494
 compositeprocess/title: 494
 compositeprocess/abstract: 494
@@ -517,12 +525,12 @@ compositeprocess/drsDataset/directory: 494
 compositeprocess/identifier: 206
 compositeprocess/identifier/url: 206
 compositeprocess/identifier/identifierType: 206
-compositeprocess/identifier/shortUrl: 7
+compositeprocess/identifier/shortUrl: 6
 compositeprocess/onlineResource: 431
 compositeprocess/onlineResource/function: 429
 compositeprocess/onlineResource/linkage: 431
 compositeprocess/onlineResource/name: 430
-compositeprocess/onlineResource/description: 33
+compositeprocess/onlineResource/description: 32
 compositeprocess/migrationProperty: 101
 compositeprocess/migrationProperty/key: 101
 compositeprocess/migrationProperty/value: 101
@@ -530,7 +538,7 @@ compositeprocess/migrationProperty/modified: 101
 compositeprocess/responsiblePartyInfo: 198
 compositeprocess/responsiblePartyInfo/priority: 198
 compositeprocess/responsiblePartyInfo/party: 198
-compositeprocess/responsiblePartyInfo/party/firstName: 52
+compositeprocess/responsiblePartyInfo/party/firstName: 51
 compositeprocess/responsiblePartyInfo/party/lastName: 198
 compositeprocess/responsiblePartyInfo/party/partyType: 198
 compositeprocess/responsiblePartyInfo/party/description: 74
@@ -557,13 +565,14 @@ compositeprocess/instrumentPlatformPair: 245
 compositeprocess/instrumentPlatformPair/instrument: 244
 compositeprocess/instrumentPlatformPair/platform: 245
 compositeprocess/model: 494
+
 platform: 1163
 platform/title: 1163
 platform/abstract: 1163
 platform/keywords: 183
 platform/platformType: 1094
 platform/location: 735
-platform/location/bboxName: 641
+platform/location/bboxName: 640
 platform/location/eastBoundLongitude: 735
 platform/location/northBoundLatitude: 735
 platform/location/westBoundLongitude: 735
@@ -574,12 +583,12 @@ platform/uuid: 1163
 platform/identifier: 449
 platform/identifier/url: 449
 platform/identifier/identifierType: 449
-platform/identifier/shortUrl: 2
+platform/identifier/shortUrl: 1
 platform/onlineResource: 1010
 platform/onlineResource/function: 1010
 platform/onlineResource/linkage: 1010
 platform/onlineResource/name: 1009
-platform/onlineResource/description: 139
+platform/onlineResource/description: 138
 platform/migrationProperty: 214
 platform/migrationProperty/key: 214
 platform/migrationProperty/value: 214
@@ -592,7 +601,7 @@ platform/note/date: 9
 platform/responsiblePartyInfo: 651
 platform/responsiblePartyInfo/priority: 651
 platform/responsiblePartyInfo/party: 651
-platform/responsiblePartyInfo/party/firstName: 132
+platform/responsiblePartyInfo/party/firstName: 131
 platform/responsiblePartyInfo/party/lastName: 651
 platform/responsiblePartyInfo/party/partyType: 651
 platform/responsiblePartyInfo/party/description: 155
@@ -631,6 +640,7 @@ platform/drsDataset: 1153
 platform/drsDataset/drsId: 1153
 platform/drsDataset/version: 1153
 platform/drsDataset/directory: 1153
+
 observation: 8500
 observation/title: 8500
 observation/abstract: 8499
@@ -646,18 +656,18 @@ observation/publicationState: 8498
 observation/nonGeographicFlag: 8500
 observation/dontHarvestFromProjects: 8500
 observation/geographicExtent: 7842
-observation/geographicExtent/bboxName: 4773
+observation/geographicExtent/bboxName: 4772
 observation/geographicExtent/eastBoundLongitude: 7842
 observation/geographicExtent/northBoundLatitude: 7842
 observation/geographicExtent/westBoundLongitude: 7842
 observation/geographicExtent/southBoundLatitude: 7842
 observation/language: 8500
 observation/permission: 8333
-observation/permission/accessConstraints: 26
+observation/permission/accessConstraints: 25
 observation/permission/accessCategory: 8333
 observation/permission/accessRoles: 1954
 observation/permission/licenceURL: 8280
-observation/permission/label: 7940
+observation/permission/label: 7939
 observation/resolution: 433
 observation/status: 8499
 observation/verticalExtent: 193
@@ -688,7 +698,7 @@ observation/uuid: 8500
 observation/identifier: 1385
 observation/identifier/url: 1385
 observation/identifier/identifierType: 1385
-observation/identifier/shortUrl: 116
+observation/identifier/shortUrl: 115
 observation/note: 55
 observation/note/comments: 55
 observation/note/commentator: 55
@@ -720,11 +730,11 @@ observation/onlineResource: 7801
 observation/onlineResource/function: 7765
 observation/onlineResource/linkage: 7801
 observation/onlineResource/name: 7801
-observation/onlineResource/description: 245
+observation/onlineResource/description: 244
 observation/responsiblePartyInfo: 3742
 observation/responsiblePartyInfo/priority: 3742
 observation/responsiblePartyInfo/party: 3742
-observation/responsiblePartyInfo/party/firstName: 819
+observation/responsiblePartyInfo/party/firstName: 818
 observation/responsiblePartyInfo/party/lastName: 3742
 observation/responsiblePartyInfo/party/partyType: 3742
 observation/responsiblePartyInfo/party/description: 1570
@@ -738,7 +748,7 @@ observation/responsiblePartyInfo/party/phone: 2445
 observation/responsiblePartyInfo/party/onlineResource: 2586
 observation/responsiblePartyInfo/role: 3742
 observation/relatedObservationInfo: 530
-observation/relatedObservationInfo/subjectObservation: 65
+observation/relatedObservationInfo/subjectObservation: 64
 observation/relatedObservationInfo/relationType: 530
 observation/migrationProperty: 828
 observation/migrationProperty/key: 828
@@ -753,6 +763,7 @@ observation/verticalExtent/lowestLevelBound: 193
 observation/verticalExtent/units: 106
 observation/validTimePeriod/startTime: 55
 observation/validTimePeriod/endTime: 48
+
 externalcitation: 8
 externalcitation/authors: 8
 externalcitation/title: 8

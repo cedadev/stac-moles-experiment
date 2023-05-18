@@ -1,0 +1,9 @@
+ELASTICSEARCH:
+  SESSION_KWARGS:
+    headers:
+      x-api-key: bIro8yBqw9Ha2h8l87wxhCNeBgpiBSqPLxOtzmrjib7IhFKmelF877DqZR2NpgWM
+    hosts: ["es9.ceda.ac.uk:9200", "es10.ceda.ac.uk:9200"]
+    timeout: 60
+    use_ssl: true
+    verify_certs: false
+    ssl_show_warn: false

@@ -125,6 +125,7 @@
 	observation/onlineResource/description
 2:
 	project/onlineResource/internalResourceType
+	project/review/reviewNotes
 	project/imageDetails/imageConstraints/licenceURL
 	computation/review
 	computation/review/reviewer
@@ -160,7 +161,6 @@
 4:
 	externalcitation/otherCitationDetails
 	project/imageDetails/imageConstraints
-	project/review/reviewNotes
 	computation/outputDescription
 	computation/outputDescription/name
 	computation/outputDescription/description
@@ -210,33 +210,36 @@
 19:
 	computation/inputDescription/description
 20:
+	platform/childPlatform
 	computation/inputDescription
 	computation/inputDescription/name
 23:
 	acquisition/onlineResource/function
+24:
+	instrument/subInstrument
 26:
 	observationcollection/doiPublishedTime
 	observation/permission/accessConstraints
 27:
+	acquisition/onlineResource
 	acquisition/onlineResource/linkage
 	acquisition/onlineResource/name
 28:
 	observationcollection/identifier/shortUrl
-37:
-	acquisition/onlineResource
 39:
 	observation/removedDataReason
 	observation/removedDataTime
 40:
-	platform/childPlatform
+	observation/review/reviewNotes
 41:
 	compositeprocess/onlineResource/function
 42:
 	compositeprocess/onlineResource/name
+	result/oldDataPath
 43:
+	compositeprocess/onlineResource
 	compositeprocess/onlineResource/linkage
 48:
-	instrument/subInstrument
 	observation/validTimePeriod/endTime
 54:
 	observationcollection/review/reviewer/onlineResource
@@ -256,22 +259,19 @@
 	observationcollection/note/commentator
 66:
 	mobileplatformoperation/location/bboxName
-68:
-	compositeprocess/onlineResource
 73:
+	observationcollection/note
 	observationcollection/note/comments
 	observationcollection/note/date
-80:
-	observation/review/reviewNotes
 82:
+	instrument/imageDetails
 	instrument/imageDetails/linkage
 	instrument/imageDetails/fileName
 	instrument/imageDetails/fileDescription
-84:
-	result/oldDataPath
 88:
 	compositeprocess/responsiblePartyInfo/party/description
 98:
+	platform/imageDetails
 	platform/imageDetails/linkage
 	platform/imageDetails/fileName
 	platform/imageDetails/fileDescription
@@ -279,10 +279,8 @@
 	compositeprocess/responsiblePartyInfo/party/onlineResource
 106:
 	observation/verticalExtent/units
-125:
-	observationcollection/note
-164:
-	instrument/imageDetails
+113:
+	acquisition/independentInstrument
 170:
 	compositeprocess/responsiblePartyInfo/party/firstName
 183:
@@ -294,42 +292,34 @@
 	compositeprocess/responsiblePartyInfo/party/city
 	compositeprocess/responsiblePartyInfo/party/phone
 189:
+	platform/migrationProperty
 	platform/migrationProperty/key
 	platform/migrationProperty/value
 	platform/migrationProperty/modified
 190:
+	instrument/migrationProperty
 	instrument/migrationProperty/key
 	instrument/migrationProperty/value
 	instrument/migrationProperty/modified
 193:
+	computation/migrationProperty
 	computation/migrationProperty/key
 	computation/migrationProperty/value
 	computation/migrationProperty/modified
 	observation/verticalExtent
 	observation/verticalExtent/highestLevelBound
 	observation/verticalExtent/lowestLevelBound
-196:
-	platform/imageDetails
 198:
 	compositeprocess/responsiblePartyInfo/party/country
-226:
-	acquisition/independentInstrument
 243:
 	compositeprocess/responsiblePartyInfo/party/deliveryPoint
 	observation/note/commentator
 260:
+	observation/note
 	observation/note/comments
 	observation/note/date
 267:
 	platform/responsiblePartyInfo/party/description
-287:
-	observation/note
-302:
-	instrument/migrationProperty
-317:
-	platform/migrationProperty
-331:
-	computation/migrationProperty
 335:
 	compositeprocess/responsiblePartyInfo/party/electronicEmailAddress
 337:
@@ -337,6 +327,7 @@
 344:
 	instrument/keywords
 356:
+	compositeprocess/responsiblePartyInfo
 	compositeprocess/responsiblePartyInfo/priority
 	compositeprocess/responsiblePartyInfo/party
 	compositeprocess/responsiblePartyInfo/party/lastName
@@ -345,8 +336,10 @@
 371:
 	instrument/onlineResource/name
 373:
+	instrument/onlineResource
 	instrument/onlineResource/linkage
 394:
+	computation/identifier
 	computation/identifier/url
 	computation/identifier/identifierType
 395:
@@ -372,10 +365,13 @@
 539:
 	project/imageDetails/fileDescription
 541:
+	project/imageDetails
 	project/imageDetails/linkage
 	project/imageDetails/fileName
-548:
-	instrument/onlineResource
+598:
+	compositeprocess/acquisitionComponent
+599:
+	compositeprocess/computationComponent
 617:
 	project/keywords
 618:
@@ -383,17 +379,18 @@
 624:
 	observationcollection/dataPublishedTime
 631:
+	platform/onlineResource
 	platform/onlineResource/linkage
 	platform/onlineResource/name
 641:
 	platform/location/bboxName
 650:
-	compositeprocess/responsiblePartyInfo
 	observation/procedureCompositeProcess
 660:
 	observationcollection/imageDetails/fileDescription
 664:
 	instrument/responsiblePartyInfo/party/postalCode
+	observationcollection/imageDetails
 	observationcollection/imageDetails/linkage
 	observationcollection/imageDetails/fileName
 665:
@@ -404,8 +401,6 @@
 	instrument/responsiblePartyInfo/party/administrativeArea
 700:
 	instrument/responsiblePartyInfo/party/country
-726:
-	computation/identifier
 735:
 	platform/location
 	platform/location/eastBoundLongitude
@@ -419,14 +414,14 @@
 774:
 	project/onlineResource/function
 789:
+	project/onlineResource
 	project/onlineResource/linkage
 	project/onlineResource/name
 805:
+	observationcollection/discoveryKeywords
 	observationcollection/discoveryKeywords/name
 812:
 	instrument/responsiblePartyInfo/party/onlineResource
-814:
-	platform/onlineResource
 829:
 	observationcollection/publicationState
 830:
@@ -456,6 +451,7 @@
 922:
 	project/review/reviewFrequency
 923:
+	project/review
 	project/review/reviewer
 	project/review/reviewer/firstName
 	project/review/reviewer/lastName
@@ -463,14 +459,11 @@
 	project/review/reviewer/electronicEmailAddress
 	project/review/reviewer/onlineResource
 	project/review/reviewStatus
-977:
-	project/review
 1023:
+	project/migrationProperty
 	project/migrationProperty/key
 	project/migrationProperty/value
 	project/migrationProperty/modified
-1082:
-	project/imageDetails
 1094:
 	platform/platformType
 1106:
@@ -487,34 +480,29 @@
 	platform/model
 1177:
 	instrument/instrumentType
-1196:
-	compositeprocess/acquisitionComponent
-1198:
-	compositeprocess/computationComponent
 1241:
+	observationcollection/migrationProperty
 	observationcollection/migrationProperty/key
 	observationcollection/migrationProperty/value
 	observationcollection/migrationProperty/modified
-1279:
-	project/migrationProperty
 1301:
+	computation/imageDetails
 	computation/imageDetails/linkage
 	computation/imageDetails/fileName
 	computation/imageDetails/fileDescription
-1328:
-	observationcollection/imageDetails
 1346:
 	instrument
 	instrument/title
 	instrument/abstract
 	instrument/uuid
 	instrument/model
+	observationcollection/identifier
 	observationcollection/identifier/url
 	observationcollection/identifier/identifierType
 1380:
 	project/responsiblePartyInfo/party/description
-1388:
-	project/onlineResource
+1400:
+	project/observationCollection
 1426:
 	project/abstract
 1431:
@@ -539,6 +527,7 @@
 1550:
 	mobileplatformoperation/status
 1569:
+	acquisition/imageDetails
 	acquisition/imageDetails/linkage
 	acquisition/imageDetails/fileName
 	acquisition/imageDetails/fileDescription
@@ -556,8 +545,6 @@
 	mobileplatformoperation/responsiblePartyInfo/party/phone
 1605:
 	mobileplatformoperation/responsiblePartyInfo/party/deliveryPoint
-1610:
-	observationcollection/discoveryKeywords
 1658:
 	project/responsiblePartyInfo/party/postalCode
 1672:
@@ -573,6 +560,7 @@
 1694:
 	project/responsiblePartyInfo/party/administrativeArea
 1696:
+	instrument/identifier
 	instrument/identifier/url
 	instrument/identifier/identifierType
 1779:
@@ -592,12 +580,14 @@
 1863:
 	observation/review/reviewer/electronicEmailAddress
 1864:
+	observation/review
 	observation/review/reviewer
 	observation/review/reviewer/firstName
 	observation/review/reviewer/lastName
 	observation/review/reviewer/partyType
 	observation/review/reviewStatus
 1865:
+	platform/identifier
 	platform/identifier/url
 	platform/identifier/identifierType
 1938:
@@ -607,16 +597,16 @@
 2033:
 	project/identifier/url
 2034:
+	project/identifier
 	project/identifier/identifierType
 2072:
 	project/responsiblePartyInfo/party/country
-2098:
-	observation/review
 2312:
 	result/onlineResource/description
 2326:
 	observationcollection/onlineResource/function
 2340:
+	observationcollection/onlineResource
 	observationcollection/onlineResource/linkage
 	observationcollection/onlineResource/name
 2371:
@@ -625,8 +615,6 @@
 	project/responsiblePartyInfo/party/electronicEmailAddress
 2476:
 	computation/keywords
-2482:
-	observationcollection/migrationProperty
 2525:
 	acquisition/responsiblePartyInfo/party/country
 2543:
@@ -636,14 +624,14 @@
 2581:
 	result/onlineResource/name
 2583:
+	result/onlineResource
 	result/onlineResource/linkage
 2588:
 	mobileplatformoperation/onlineResource/function
 2591:
+	mobileplatformoperation/onlineResource
 	mobileplatformoperation/onlineResource/linkage
 	mobileplatformoperation/onlineResource/name
-2602:
-	computation/imageDetails
 2605:
 	acquisition/responsiblePartyInfo/party/postalCode
 2610:
@@ -652,45 +640,40 @@
 	acquisition/responsiblePartyInfo/party/phone
 2618:
 	acquisition/responsiblePartyInfo/party/administrativeArea
-2631:
-	observationcollection/identifier
 2645:
 	acquisition/responsiblePartyInfo/party/firstName
 2730:
+	platform/responsiblePartyInfo
 	platform/responsiblePartyInfo/priority
 	platform/responsiblePartyInfo/party
 	platform/responsiblePartyInfo/party/lastName
 	platform/responsiblePartyInfo/party/partyType
 	platform/responsiblePartyInfo/role
 2766:
+	observation/migrationProperty
 	observation/migrationProperty/key
 	observation/migrationProperty/value
 	observation/migrationProperty/modified
-2800:
-	project/observationCollection
-2903:
-	result/onlineResource
 2998:
+	instrument/responsiblePartyInfo
 	instrument/responsiblePartyInfo/priority
 	instrument/responsiblePartyInfo/party
 	instrument/responsiblePartyInfo/party/lastName
 	instrument/responsiblePartyInfo/party/partyType
 	instrument/responsiblePartyInfo/role
 3000:
+	observation/identifier
 	observation/identifier/url
 	observation/identifier/identifierType
-3041:
-	instrument/identifier
 3091:
 	mobileplatformoperation/responsiblePartyInfo/party/electronicEmailAddress
 3098:
+	mobileplatformoperation/responsiblePartyInfo
 	mobileplatformoperation/responsiblePartyInfo/priority
 	mobileplatformoperation/responsiblePartyInfo/party
 	mobileplatformoperation/responsiblePartyInfo/party/lastName
 	mobileplatformoperation/responsiblePartyInfo/party/partyType
 	mobileplatformoperation/responsiblePartyInfo/role
-3138:
-	acquisition/imageDetails
 3296:
 	computation/abstract
 3299:
@@ -700,41 +683,33 @@
 	computation/model
 3312:
 	acquisition/responsiblePartyInfo/party/deliveryPoint
-3429:
-	platform/identifier
+3354:
+	acquisition/mobilePlatformOperation
 3438:
 	observation/procedureComputation
 3538:
 	computation/responsiblePartyInfo/party/firstName
 3784:
 	observation/procedureAcquisition
-3815:
-	observation/identifier
-3825:
-	project/identifier
 3889:
 	observationcollection/responsiblePartyInfo/party/firstName
-4316:
-	observation/migrationProperty
 4440:
+	observation/vocabularyKeywords
 	observation/vocabularyKeywords/vocabService
 	observation/vocabularyKeywords/uri
 	observation/vocabularyKeywords/resolvedTerm
-4582:
-	observationcollection/onlineResource
 4635:
 	observationcollection/responsiblePartyInfo/party/description
 4750:
 	project/responsiblePartyInfo/party/lastName
 4751:
+	project/responsiblePartyInfo
 	project/responsiblePartyInfo/priority
 	project/responsiblePartyInfo/party
 	project/responsiblePartyInfo/party/partyType
 	project/responsiblePartyInfo/role
 4773:
 	observation/geographicExtent/bboxName
-4930:
-	mobileplatformoperation/onlineResource
 5122:
 	acquisition/abstract
 5201:
@@ -745,36 +720,30 @@
 	acquisition/uuid
 	acquisition/model
 5287:
+	acquisition/responsiblePartyInfo
 	acquisition/responsiblePartyInfo/priority
 	acquisition/responsiblePartyInfo/party
 	acquisition/responsiblePartyInfo/party/lastName
 	acquisition/responsiblePartyInfo/party/partyType
 	acquisition/responsiblePartyInfo/role
-5366:
-	platform/responsiblePartyInfo
 5459:
 	observationcollection/responsiblePartyInfo/party/phone
 5775:
 	observationcollection/responsiblePartyInfo/party/postalCode
-5868:
-	instrument/responsiblePartyInfo
 5883:
 	observationcollection/responsiblePartyInfo/party/administrativeArea
 6077:
 	observation/imageDetails/fileDescription
 6086:
+	observation/imageDetails
 	observation/imageDetails/linkage
 	observation/imageDetails/fileName
-6145:
-	mobileplatformoperation/responsiblePartyInfo
 6237:
 	observationcollection/responsiblePartyInfo/party/city
 6313:
 	observationcollection/responsiblePartyInfo/party/onlineResource
 6679:
 	observationcollection/responsiblePartyInfo/party/electronicEmailAddress
-6708:
-	acquisition/mobilePlatformOperation
 6902:
 	computation/responsiblePartyInfo/party/phone
 6955:
@@ -823,6 +792,7 @@
 8362:
 	observation/result_field
 8391:
+	observation/discoveryKeywords
 	observation/discoveryKeywords/name
 8495:
 	observation/dataLineage
@@ -841,12 +811,10 @@
 	observation/language
 	observation/uuid
 	observation/model
-8765:
-	project/responsiblePartyInfo
+8516:
+	observation/projects
 8866:
 	computation/responsiblePartyInfo/party/deliveryPoint
-8880:
-	observation/vocabularyKeywords
 8899:
 	result/curationCategory
 8985:
@@ -865,9 +833,10 @@
 	result/model
 10116:
 	computation/responsiblePartyInfo/party/electronicEmailAddress
-10413:
-	acquisition/responsiblePartyInfo
+10839:
+	observationcollection/member
 11171:
+	observationcollection/responsiblePartyInfo
 	observationcollection/responsiblePartyInfo/priority
 	observationcollection/responsiblePartyInfo/party
 	observationcollection/responsiblePartyInfo/party/lastName
@@ -878,34 +847,24 @@
 11661:
 	computation/onlineResource/name
 11663:
+	computation/onlineResource
 	computation/onlineResource/linkage
-12172:
-	observation/imageDetails
 12775:
 	acquisition/instrumentPlatformPair/instrument
 	acquisition/instrumentPlatformPair/platform
+12776:
+	acquisition/instrumentPlatformPair
 14313:
 	computation/responsiblePartyInfo/party/onlineResource
 16508:
 	computation/responsiblePartyInfo/party/country
-16782:
-	observation/discoveryKeywords
-17032:
-	observation/projects
 21197:
+	computation/responsiblePartyInfo
 	computation/responsiblePartyInfo/priority
 	computation/responsiblePartyInfo/party
 	computation/responsiblePartyInfo/party/lastName
 	computation/responsiblePartyInfo/party/partyType
 	computation/responsiblePartyInfo/role
-21678:
-	observationcollection/member
-22342:
-	observationcollection/responsiblePartyInfo
-22618:
-	acquisition/instrumentPlatformPair
-23167:
-	computation/onlineResource
 23778:
 	observation/responsiblePartyInfo/party/firstName
 25867:
@@ -913,12 +872,10 @@
 25910:
 	observation/onlineResource/linkage
 	observation/onlineResource/name
-42236:
-	computation/responsiblePartyInfo
+25911:
+	observation/onlineResource
 43126:
 	observation/responsiblePartyInfo/party/description
-51193:
-	observation/onlineResource
 58099:
 	observation/responsiblePartyInfo/party/phone
 58917:
@@ -938,28 +895,26 @@
 95782:
 	observation/responsiblePartyInfo/party/lastName
 95803:
+	observation/responsiblePartyInfo
 	observation/responsiblePartyInfo/priority
 	observation/responsiblePartyInfo/party
 	observation/responsiblePartyInfo/party/partyType
 	observation/responsiblePartyInfo/role
-191603:
-	observation/responsiblePartyInfo
 290698:
+	observation/drsDataset
 	observation/drsDataset/drsId
 	observation/drsDataset/version
 	observation/drsDataset/directory
 298919:
 	observation/phenomena/terms/vocabulary
-581311:
-	observation/drsDataset
+658605:
+	observation/phenomena
 934014:
 	observation/phenomena/names/name
-1317210:
-	observation/phenomena
-1868029:
+934015:
 	observation/phenomena/names
 2097581:
 	observation/phenomena/terms/label
 	observation/phenomena/terms/value
-4195163:
+2097582:
 	observation/phenomena/terms

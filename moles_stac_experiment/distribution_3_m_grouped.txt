@@ -50,10 +50,13 @@
 19:
 	/inputDescription/description
 20:
+	/childPlatform
 	/imageDetails/imageConstraints/accessCategory
 	/imageDetails/imageConstraints/label
 	/inputDescription
 	/inputDescription/name
+24:
+	/subInstrument
 26:
 	/permission/accessConstraints
 27:
@@ -61,35 +64,31 @@
 39:
 	/removedDataReason
 	/removedDataTime
-40:
-	/childPlatform
+42:
+	/oldDataPath
+45:
+	/review/reviewNotes
 48:
-	/subInstrument
 	/validTimePeriod/endTime
 55:
 	/validTimePeriod
 	/validTimePeriod/startTime
-84:
-	/oldDataPath
-87:
-	/review/reviewNotes
 106:
 	/verticalExtent/units
+113:
+	/independentInstrument
 193:
 	/verticalExtent
 	/verticalExtent/highestLevelBound
 	/verticalExtent/lowestLevelBound
-226:
-	/independentInstrument
 305:
 	/note/commentator
 333:
+	/note
 	/note/comments
 	/note/date
 395:
 	/parentProject
-412:
-	/note
 433:
 	/resolution
 499:
@@ -100,6 +99,10 @@
 	/relatedObservationInfo/relationType
 550:
 	/doiPublishedTime
+598:
+	/acquisitionComponent
+599:
+	/computationComponent
 650:
 	/procedureCompositeProcess
 707:
@@ -108,10 +111,8 @@
 	/platformType
 1177:
 	/instrumentType
-1196:
-	/acquisitionComponent
-1198:
-	/computationComponent
+1400:
+	/observationCollection
 1519:
 	/operationTime/endTime
 1533:
@@ -131,8 +132,6 @@
 	/onlineResource/description
 2556:
 	/review/reviewer/deliveryPoint
-2800:
-	/observationCollection
 2834:
 	/review/reviewer/onlineResource
 2837:
@@ -144,26 +143,27 @@
 	/review/reviewer/lastName
 	/review/reviewer/partyType
 2847:
+	/review
 	/review/reviewer
 	/review/reviewStatus
-3135:
-	/review
+3354:
+	/mobilePlatformOperation
 3438:
 	/procedureComputation
 3784:
 	/procedureAcquisition
 4440:
+	/vocabularyKeywords
 	/vocabularyKeywords/vocabService
 	/vocabularyKeywords/uri
 	/vocabularyKeywords/resolvedTerm
 4773:
 	/geographicExtent/bboxName
 5602:
+	/migrationProperty
 	/migrationProperty/key
 	/migrationProperty/value
 	/migrationProperty/modified
-6708:
-	/mobilePlatformOperation
 6955:
 	/latestDataUpdateTime
 7438:
@@ -203,17 +203,16 @@
 	/nonGeographicFlag
 	/dontHarvestFromProjects
 	/language
+8516:
+	/projects
 8696:
 	/dataPublishedTime
-8880:
-	/vocabularyKeywords
 8899:
 	/curationCategory
 8985:
 	/fileFormat
-9027:
-	/migrationProperty
 9196:
+	/discoveryKeywords
 	/discoveryKeywords/name
 9599:
 	/dataPath
@@ -225,32 +224,26 @@
 10326:
 	/imageDetails/fileDescription
 10341:
+	/imageDetails
 	/imageDetails/linkage
 	/imageDetails/fileName
 10342:
 	/identifier/url
 10343:
+	/identifier
 	/identifier/identifierType
 10799:
 	/publicationState
 10809:
 	/status
+10839:
+	/member
 12462:
 	/keywords
 12775:
 	/instrumentPlatformPair/instrument
 	/instrumentPlatformPair/platform
-17032:
-	/projects
-17475:
-	/identifier
-18392:
-	/discoveryKeywords
-20682:
-	/imageDetails
-21678:
-	/member
-22618:
+12776:
 	/instrumentPlatformPair
 23849:
 	/abstract
@@ -268,6 +261,8 @@
 	/onlineResource/name
 46956:
 	/onlineResource/linkage
+46957:
+	/onlineResource
 60589:
 	/responsiblePartyInfo/party/description
 77967:
@@ -280,8 +275,6 @@
 	/responsiblePartyInfo/party/city
 87385:
 	/responsiblePartyInfo/party/onlineResource
-89636:
-	/onlineResource
 94635:
 	/responsiblePartyInfo/party/deliveryPoint
 99505:
@@ -291,28 +284,26 @@
 147372:
 	/responsiblePartyInfo/party/lastName
 147394:
+	/responsiblePartyInfo
 	/responsiblePartyInfo/priority
 	/responsiblePartyInfo/party
 	/responsiblePartyInfo/party/partyType
 	/responsiblePartyInfo/role
 290698:
+	/drsDataset
 	/drsDataset/drsId
 	/drsDataset/version
 	/drsDataset/directory
-293391:
-	/responsiblePartyInfo
 298919:
 	/phenomena/terms/vocabulary
-581311:
-	/drsDataset
+658605:
+	/phenomena
 934014:
 	/phenomena/names/name
-1317210:
-	/phenomena
-1868029:
+934015:
 	/phenomena/names
 2097581:
 	/phenomena/terms/label
 	/phenomena/terms/value
-4195163:
+2097582:
 	/phenomena/terms

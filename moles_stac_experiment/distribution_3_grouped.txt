@@ -758,7 +758,7 @@
 	computation/responsiblePartyInfo/party/description
 7438:
 	observation/timePeriod/endTime
-7686:
+7681:
 	observation/resultQuality/explanation
 7842:
 	observation/geographicExtent

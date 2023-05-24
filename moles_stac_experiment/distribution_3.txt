@@ -561,7 +561,7 @@ observation/timePeriod: 8294
 observation/timePeriod/startTime: 8294
 observation/timePeriod/endTime: 7438
 observation/resultQuality: 7945
-observation/resultQuality/explanation: 7686
+observation/resultQuality/explanation: 7681
 observation/resultQuality/passesTest: 7945
 observation/resultQuality/resultTitle: 7945
 observation/resultQuality/date: 7945

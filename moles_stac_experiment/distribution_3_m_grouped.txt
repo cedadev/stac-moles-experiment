@@ -168,7 +168,7 @@
 	/latestDataUpdateTime
 7438:
 	/timePeriod/endTime
-7686:
+7681:
 	/resultQuality/explanation
 7842:
 	/geographicExtent

@@ -3,34 +3,19 @@
     "bool": {
       "must": [
         {
-          "terms": {
-            "model": [
-              "observation"
-            ]
+          "match_all": {}
+        },
+        {
+          "query_string": {
+            "query": "fab53ee460e05f1b68e23657f4b6c5f4"
           }
         }
-      ],
-      "filter": {
-        "geo_shape": {
-          "geographicExtent": {
-            "shape": {
-              "type": "envelope",
-              "coordinates": [
-                [
-                  -8,
-                  59
-                ],
-                [
-                  2,
-                  49
-                ]
-              ]
-            },
-            "relation": "within"
-          }
-        }
-      }
+      ]
     }
   },
-  "size": 20
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
 }

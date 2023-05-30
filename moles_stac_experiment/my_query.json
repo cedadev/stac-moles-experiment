@@ -1,0 +1,36 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "terms": {
+            "model": [
+              "observation"
+            ]
+          }
+        }
+      ],
+      "filter": {
+        "geo_shape": {
+          "geographicExtent": {
+            "shape": {
+              "type": "envelope",
+              "coordinates": [
+                [
+                  -8,
+                  59
+                ],
+                [
+                  2,
+                  49
+                ]
+              ]
+            },
+            "relation": "within"
+          }
+        }
+      }
+    }
+  },
+  "size": 20
+}

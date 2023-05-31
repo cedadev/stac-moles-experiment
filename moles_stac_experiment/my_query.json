@@ -1560,3 +1560,150 @@
   "_source": false,
   "size": 100
 }
+2023-05-31 10:56:59.455442
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "edbc618730c043a383b8fa9b8200cfb6"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 10:57:15.393274
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "edbc618730c043a383b8fa9b8200cfb6"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 10:57:15.415160
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "acquisition"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "edbc618730c043a383b8fa9b8200cfb6"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "size": 10000
+}
+2023-05-31 10:57:15.476826
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "query_string": {
+            "query": "(d5436a7c6e20464e94a7d6bf62c88c3d) OR (0236ade7cd5f4986bb7f1722801ff204) OR (06d4b5dcb8c04c398dd7d20a27c35c95) OR (79c744b4640c41408f3e00394d4cebcb) OR (25b0ca53063f4e0a85d01cf6393aaa8d) OR (0fc9cbea21d2402bbde4c6442a789c69) OR (f180256078ab4930bebaa55adca36310) OR (5c65c4f8b22d446fb27afbea115dde6d)"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid",
+    "model"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 10:57:15.587866
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "query_string": {
+            "query": "(3e90691af2e64aaba32d981fe0674fba) OR (27a7e06aa1854afa9f9cb8c223c421ab) OR (0c8fdb5f0f064367814fb5a86261ee56) OR (2635feb8d23b4b58abb70a2ee8c5725b)"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid",
+    "model"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 10:57:16.865029
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "65564b1bbd5c4d76aa0638adb40fbcc8",
+              "c7fa005e2095425392b18adbd7b40617",
+              "3a58d003ac2f4236b17dd66c147b6f51",
+              "3539b96f18644d78aae71517fecfb7e2",
+              "9d51caf503fc4237a01b6242e4258503",
+              "7e23b82ec3bdc8e5297c0b623697c559",
+              "5be973861dfc6055f64129577cf1f636",
+              "14d7491743e7425a83b2da6abe4493b2",
+              "1105a30c49a01dde0032515cadb056ad",
+              "b2f21e4972c90504ed837367b06acc91",
+              "100dacbe559b4004a6d024cbea0aa617"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "model",
+    "uuid"
+  ],
+  "_source": false,
+  "size": 100
+}

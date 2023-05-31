@@ -1,22 +1,16 @@
-externalcitation:
-	authors:
-		str
+compositeprocess:
 	title:
 		str
-	date:
+	abstract:
 		str
-	publicationType:
-		str
-	collectiveTitle:
-		str
-	edition:
-		str
-	pageNumbers:
-		str
-	otherCitationDetails:
-		str
+	computationComponent:
+		[uuid]
+	acquisitionComponent:
+		[uuid]
 	uuid:
 		uuid
+	model:
+		str
 	onlineResource:
 		applicationProfile:
 			NoneType
@@ -30,37 +24,14 @@ externalcitation:
 			str
 		description:
 			NoneType
-	model:
-		str
 	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	identifier:
+		url:
+			str
+		identifierType:
+			str
+		shortUrl:
 			str
 
 platform:
@@ -160,210 +131,6 @@ platform:
 		reviewNotes:
 			[int]
 
-instrument:
-	title:
-		str
-	abstract:
-		str
-	keywords:
-		str
-	instrumentType:
-		str
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
-	subInstrument:
-		[uuid]
-	uuid:
-		uuid
-	identifier:
-		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
-	responsiblePartyInfo:
-		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
-	model:
-		str
-	onlineResource:
-		applicationProfile:
-			NoneType
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-			[int]
-
-compositeprocess:
-	title:
-		str
-	abstract:
-		str
-	computationComponent:
-		[uuid]
-	acquisitionComponent:
-		[uuid]
-	uuid:
-		uuid
-	model:
-		str
-	onlineResource:
-		applicationProfile:
-			NoneType
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	responsiblePartyInfo:
-		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-
-project:
-	title:
-		str
-	abstract:
-		str
-	publicationState:
-		str
-	parentProject:
-		uuid
-	keywords:
-		str
-	status:
-		str
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
-	observationCollection:
-		[uuid]
-	uuid:
-		uuid
-	identifier:
-		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
-	onlineResource:
-		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-	model:
-		str
-
 result:
 	curationCategory:
 		str
@@ -399,64 +166,99 @@ result:
 		description:
 			str
 
-computation:
+observationcollection:
 	title:
 		str
 	abstract:
 		str
 	keywords:
 		str
-	inputDescription:
-		name:
-			str
-		description:
-			str
-	outputDescription:
-		name:
-			str
-		description:
-			str
-	softwareReference:
-		uuid
+	publicationState:
+		str
+	dataPublishedTime:
+		str
+	doiPublishedTime:
+		str
 	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
+	discoveryKeywords:
+		[{'name': 'str'}]
+	externalCitations:
+	member:
+		[uuid]
 	uuid:
 		uuid
-	model:
-		str
 	identifier:
 		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	onlineResource:
+		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
 	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
+		[{'key': 'str', 'value': 'str', 'modified': 'str'}]
 	responsiblePartyInfo:
 		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
-	onlineResource:
-		applicationProfile:
-			NoneType
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
+	model:
+		str
 	review:
 		reviewer:
-			NoneType
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
 		reviewFrequency:
 			str
 		reviewStatus:
 			str
 		reviewNotes:
-			[int]
+	note:
+		comments:
+			str
+		commentator:
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
+		date:
+			str
 
 mobileplatformoperation:
 	title:
@@ -533,38 +335,47 @@ mobileplatformoperation:
 		description:
 			NoneType
 
-observationcollection:
+instrument:
 	title:
 		str
 	abstract:
 		str
 	keywords:
 		str
-	publicationState:
-		str
-	dataPublishedTime:
-		str
-	doiPublishedTime:
+	instrumentType:
 		str
 	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
-	discoveryKeywords:
-		[{'name': 'str'}]
-	externalCitations:
-	member:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+	subInstrument:
 		[uuid]
 	uuid:
 		uuid
 	identifier:
 		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
-	onlineResource:
-		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
-	migrationProperty:
-		[{'key': 'str', 'value': 'str', 'modified': 'str'}]
 	responsiblePartyInfo:
 		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
 	model:
 		str
+	onlineResource:
+		applicationProfile:
+			NoneType
+		function:
+			str
+		internalResourceType:
+			NoneType
+		linkage:
+			str
+		name:
+			str
+		description:
+			NoneType
+	migrationProperty:
+		key:
+			str
+		value:
+			str
+		modified:
+			str
 	review:
 		reviewer:
 			firstName:
@@ -596,61 +407,7 @@ observationcollection:
 		reviewStatus:
 			str
 		reviewNotes:
-	note:
-		comments:
-			str
-		commentator:
-			uuid
-		date:
-			str
-
-acquisition:
-	title:
-		str
-	abstract:
-		str
-	outputDescription:
-		name:
-			str
-		description:
-			str
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
-	independentInstrument:
-		[uuid]
-	mobilePlatformOperation:
-		[uuid]
-	uuid:
-		uuid
-	instrumentPlatformPair:
-		instrument:
-			uuid
-		platform:
-			uuid
-	model:
-		str
-	responsiblePartyInfo:
-		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
-	onlineResource:
-		applicationProfile:
-			NoneType
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
+			[int]
 
 observation:
 	title:
@@ -819,7 +576,30 @@ observation:
 		comments:
 			str
 		commentator:
-			uuid
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
 		date:
 			str
 	drsDataset:
@@ -829,4 +609,270 @@ observation:
 			str
 		directory:
 			str
+
+project:
+	title:
+		str
+	abstract:
+		str
+	publicationState:
+		str
+	parentProject:
+		uuid
+	keywords:
+		str
+	status:
+		str
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
+	observationCollection:
+		[uuid]
+	uuid:
+		uuid
+	identifier:
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	onlineResource:
+		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
+	migrationProperty:
+		key:
+			str
+		value:
+			str
+		modified:
+			str
+	responsiblePartyInfo:
+		priority:
+			int
+		party:
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
+		role:
+			str
+	review:
+		reviewer:
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
+		reviewFrequency:
+			str
+		reviewStatus:
+			str
+		reviewNotes:
+	model:
+		str
+
+externalcitation:
+	authors:
+		str
+	title:
+		str
+	date:
+		str
+	publicationType:
+		str
+	collectiveTitle:
+		str
+	edition:
+		str
+	pageNumbers:
+		str
+	otherCitationDetails:
+		str
+	uuid:
+		uuid
+	onlineResource:
+		applicationProfile:
+			NoneType
+		function:
+			str
+		internalResourceType:
+			NoneType
+		linkage:
+			str
+		name:
+			str
+		description:
+			NoneType
+	model:
+		str
+	responsiblePartyInfo:
+		priority:
+			int
+		party:
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
+		role:
+			str
+
+acquisition:
+	title:
+		str
+	abstract:
+		str
+	outputDescription:
+		name:
+			str
+		description:
+			str
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+	independentInstrument:
+		[uuid]
+	mobilePlatformOperation:
+		[uuid]
+	uuid:
+		uuid
+	instrumentPlatformPair:
+		instrument:
+			uuid
+		platform:
+			uuid
+	model:
+		str
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	onlineResource:
+		applicationProfile:
+			NoneType
+		function:
+			str
+		internalResourceType:
+			NoneType
+		linkage:
+			str
+		name:
+			str
+		description:
+			NoneType
+	identifier:
+		url:
+			str
+		identifierType:
+			str
+		shortUrl:
+			str
+
+computation:
+	title:
+		str
+	abstract:
+		str
+	keywords:
+		str
+	inputDescription:
+		name:
+			str
+		description:
+			str
+	outputDescription:
+		name:
+			str
+		description:
+			str
+	softwareReference:
+		uuid
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+	uuid:
+		uuid
+	model:
+		str
+	identifier:
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	migrationProperty:
+		key:
+			str
+		value:
+			str
+		modified:
+			str
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	onlineResource:
+		applicationProfile:
+			NoneType
+		function:
+			str
+		internalResourceType:
+			NoneType
+		linkage:
+			str
+		name:
+			str
+		description:
+			NoneType
+	review:
+		reviewer:
+			NoneType
+		reviewFrequency:
+			str
+		reviewStatus:
+			str
+		reviewNotes:
+			[int]
 

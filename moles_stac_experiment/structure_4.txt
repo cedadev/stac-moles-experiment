@@ -1,25 +1,16 @@
-instrument:
+compositeprocess:
 	title:
 		str
 	abstract:
 		str
-	keywords:
-		str
-	instrumentType:
-		str
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
-	subInstrument:
-		[str]
+	computationComponent:
+		[uuid]
+	acquisitionComponent:
+		[uuid]
 	uuid:
 		uuid
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
+	model:
+		str
 	onlineResource:
 		function:
 			str
@@ -27,62 +18,46 @@ instrument:
 			str
 		name:
 			str
-		description:
-			NoneType
-	migrationProperty:
-		key:
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	identifier:
+		url:
 			str
-		value:
+		identifierType:
 			str
-		modified:
-			str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			deliveryPoint:
-				str
-			electronicEmailAddress:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
-	model:
+
+platform:
+	title:
 		str
+	abstract:
+		str
+	keywords:
+		str
+	platformType:
+		str
+	location:
+		bboxName:
+			str
+		eastBoundLongitude:
+			float
+		northBoundLatitude:
+			float
+		westBoundLongitude:
+			float
+		southBoundLatitude:
+			float
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
+	childPlatform:
+		[uuid]
+	uuid:
+		uuid
+	identifier:
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	onlineResource:
+		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
+	migrationProperty:
+		[{'key': 'str', 'value': 'str', 'modified': 'str'}]
 	responsiblePartyInfo:
 		priority:
 			int
@@ -113,172 +88,83 @@ instrument:
 				str
 		role:
 			str
-	drsDataset:
-		drsId:
-			uuid
-		version:
+	model:
+		str
+	review:
+		reviewer:
+			lastName:
+				str
+			partyType:
+				str
+		reviewFrequency:
 			str
-		directory:
+		reviewStatus:
+			str
+		reviewNotes:
+			[int]
+
+result:
+	curationCategory:
+		str
+	dataPath:
+		str
+	numberOfFiles:
+		int
+	volume:
+		int
+	fileFormat:
+		str
+	storageStatus:
+		str
+	storageLocation:
+		str
+	oldDataPath:
+		[uuid]
+	uuid:
+		uuid
+	model:
+		str
+	onlineResource:
+		function:
+			str
+		linkage:
+			str
+		name:
+			str
+		description:
 			str
 
-project:
+observationcollection:
 	title:
 		str
 	abstract:
+		str
+	keywords:
 		str
 	publicationState:
 		str
-	parentProject:
-		uuid
-	keywords:
+	dataPublishedTime:
 		str
-	status:
+	doiPublishedTime:
 		str
 	imageDetails:
 		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
-	observationCollection:
+	discoveryKeywords:
+		[{'name': 'str'}]
+	member:
 		[uuid]
 	uuid:
 		uuid
 	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	onlineResource:
+		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
 	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
+		[{'key': 'str', 'value': 'str', 'modified': 'str'}]
 	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			deliveryPoint:
-				str
-			electronicEmailAddress:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
 	model:
 		str
-	onlineResource:
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
-
-acquisition:
-	title:
-		str
-	abstract:
-		str
-	outputDescription:
-		int
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
-	independentInstrument:
-		[uuid]
-	mobilePlatformOperation:
-		[str]
-	uuid:
-		uuid
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
 	review:
 		reviewer:
 			firstName:
@@ -309,50 +195,10 @@ acquisition:
 			str
 		reviewStatus:
 			str
-		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
-	model:
-		str
-	onlineResource:
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
 	note:
 		comments:
 			str
 		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
 			firstName:
 				str
 			lastName:
@@ -377,14 +223,7 @@ acquisition:
 				str
 			onlineResource:
 				str
-		role:
-			str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
+		date:
 			str
 
 mobileplatformoperation:
@@ -414,40 +253,6 @@ mobileplatformoperation:
 			NoneType
 	uuid:
 		uuid
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	onlineResource:
-		function:
-			str
-		internalResourceType:
-			NoneType
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
 	responsiblePartyInfo:
 		priority:
 			int
@@ -478,362 +283,52 @@ mobileplatformoperation:
 				str
 		role:
 			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			deliveryPoint:
-				str
-			electronicEmailAddress:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
 	model:
 		str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
-
-result:
-	curationCategory:
-		str
-	dataPath:
-		str
-	numberOfFiles:
-		int
-	volume:
-		int
-	fileFormat:
-		str
-	storageStatus:
-		str
-	storageLocation:
-		str
-	oldDataPath:
-		[int]
-	uuid:
-		uuid
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
 	onlineResource:
 		function:
 			str
-		internalResourceType:
-			NoneType
 		linkage:
 			str
 		name:
 			str
-		description:
-			NoneType
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
-	model:
-		str
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-	drsDataset:
-		drsId:
-			uuid
-		version:
-			str
-		directory:
-			str
 
-observationcollection:
+instrument:
 	title:
 		str
 	abstract:
 		str
 	keywords:
 		str
-	publicationState:
+	instrumentType:
 		str
-	dataPublishedTime:
-		str
-	doiPublishedTime:
-		str
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
-	discoveryKeywords:
-		[{'name': 'str'}]
-	member:
-		[str]
-	uuid:
-		uuid
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	onlineResource:
-		function:
-			str
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			deliveryPoint:
-				str
-			electronicEmailAddress:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
-	model:
-		str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
-
-computation:
-	title:
-		str
-	abstract:
-		str
-	keywords:
-		str
-	inputDescription:
-		int
-	outputDescription:
-		int
-	softwareReference:
-		int
 	imageDetails:
 		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+	subInstrument:
+		[uuid]
 	uuid:
 		uuid
+	identifier:
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	model:
+		str
 	onlineResource:
 		function:
 			str
+		internalResourceType:
+			NoneType
 		linkage:
 			str
 		name:
 			str
-		description:
-			NoneType
 	migrationProperty:
 		key:
 			str
 		value:
 			str
 		modified:
-			str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
 			str
 	review:
 		reviewer:
@@ -854,300 +349,7 @@ computation:
 		reviewStatus:
 			str
 		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
-	model:
-		str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-
-compositeprocess:
-	title:
-		str
-	abstract:
-		str
-	computationComponent:
-		[uuid]
-	acquisitionComponent:
-		[uuid]
-	uuid:
-		uuid
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	onlineResource:
-		function:
-			str
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			deliveryPoint:
-				str
-			electronicEmailAddress:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	model:
-		str
-
-platform:
-	title:
-		str
-	abstract:
-		str
-	keywords:
-		str
-	platformType:
-		str
-	location:
-		bboxName:
-			str
-		eastBoundLongitude:
-			float
-		northBoundLatitude:
-			float
-		westBoundLongitude:
-			float
-		southBoundLatitude:
-			float
-	imageDetails:
-		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
-	childPlatform:
-		[int]
-	uuid:
-		uuid
-	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	onlineResource:
-		function:
-			str
-		linkage:
-			str
-		name:
-			str
-		description:
-			NoneType
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
-	responsiblePartyInfo:
-		priority:
-			int
-		party:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			description:
-				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
-			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
-				str
-		role:
-			str
-	review:
-		reviewer:
-			firstName:
-				str
-			lastName:
-				str
-			partyType:
-				str
-			deliveryPoint:
-				str
-			electronicEmailAddress:
-				str
-			onlineResource:
-				str
-		reviewFrequency:
-			str
-		reviewStatus:
-			str
-		reviewNotes:
-	inputOutputDescription:
-		name:
-			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
-		comments:
-			str
-		commentator:
-			int
-		date:
-			str
-	model:
-		str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
+			[int]
 
 observation:
 	title:
@@ -1261,21 +463,11 @@ observation:
 	uuid:
 		uuid
 	identifier:
-		url:
-			str
-		identifierType:
-			str
-		shortUrl:
-			str
-	note:
-		comments:
-			str
-		commentator:
-			int
-		relatedRecord:
-			int
-		date:
-			str
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	onlineResource:
+		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
 	review:
 		reviewer:
 			firstName:
@@ -1284,9 +476,21 @@ observation:
 				str
 			partyType:
 				str
+			description:
+				str
 			deliveryPoint:
 				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
 			electronicEmailAddress:
+				str
+			phone:
 				str
 			onlineResource:
 				str
@@ -1295,34 +499,83 @@ observation:
 		reviewStatus:
 			str
 		reviewNotes:
-	inputOutputDescription:
-		name:
+	model:
+		str
+	migrationProperty:
+		[{'key': 'str', 'value': 'str', 'modified': 'str'}]
+	relatedObservationInfo:
+		subjectObservation:
+			uuid
+		relationType:
 			str
-		description:
-			str
-	instrumentPlatformPair:
-		instrument:
-			int
-		platform:
-			int
-	reviewNote:
+	note:
 		comments:
 			str
 		commentator:
-			int
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			description:
+				str
+			deliveryPoint:
+				str
+			administrativeArea:
+				str
+			city:
+				str
+			country:
+				str
+			postalCode:
+				str
+			electronicEmailAddress:
+				str
+			phone:
+				str
+			onlineResource:
+				str
 		date:
 			str
-	model:
+	drsDataset:
+		drsId:
+			str
+		version:
+			str
+		directory:
+			str
+
+project:
+	title:
 		str
+	abstract:
+		str
+	publicationState:
+		str
+	parentProject:
+		uuid
+	keywords:
+		str
+	status:
+		str
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'uuid', 'imageConstraints': 'NoneType'}]
+	observationCollection:
+		[uuid]
+	uuid:
+		uuid
+	identifier:
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
 	onlineResource:
-		function:
+		[{'applicationProfile': 'NoneType', 'function': 'str', 'internalResourceType': 'NoneType', 'linkage': 'str', 'name': 'str', 'description': 'NoneType'}]
+	migrationProperty:
+		key:
 			str
-		linkage:
+		value:
 			str
-		name:
+		modified:
 			str
-		description:
-			NoneType
 	responsiblePartyInfo:
 		priority:
 			int
@@ -1353,25 +606,27 @@ observation:
 				str
 		role:
 			str
-	relatedObservationInfo:
-		subjectObservation:
+	review:
+		reviewer:
+			firstName:
+				str
+			lastName:
+				str
+			partyType:
+				str
+			deliveryPoint:
+				str
+			electronicEmailAddress:
+				str
+			onlineResource:
+				str
+		reviewFrequency:
 			str
-		relationType:
+		reviewStatus:
 			str
-	migrationProperty:
-		key:
-			str
-		value:
-			str
-		modified:
-			str
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
+		reviewNotes:
+	model:
+		str
 
 externalcitation:
 	authors:
@@ -1392,13 +647,6 @@ externalcitation:
 		str
 	uuid:
 		uuid
-	drsDataset:
-		drsId:
-			str
-		version:
-			str
-		directory:
-			str
 	onlineResource:
 		function:
 			str
@@ -1412,26 +660,107 @@ externalcitation:
 		priority:
 			int
 		party:
+			firstName:
+				str
 			lastName:
 				str
 			partyType:
 				str
-			deliveryPoint:
-				str
-			administrativeArea:
-				str
-			city:
-				str
-			country:
-				str
-			postalCode:
-				str
 			electronicEmailAddress:
-				str
-			phone:
-				str
-			onlineResource:
 				str
 		role:
 			str
+
+acquisition:
+	title:
+		str
+	abstract:
+		str
+	outputDescription:
+		name:
+			str
+		description:
+			str
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+	independentInstrument:
+		[uuid]
+	mobilePlatformOperation:
+		[uuid]
+	uuid:
+		uuid
+	instrumentPlatformPair:
+		instrument:
+			uuid
+		platform:
+			uuid
+	model:
+		str
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	onlineResource:
+		function:
+			str
+		linkage:
+			str
+		name:
+			str
+	identifier:
+		url:
+			str
+		identifierType:
+			str
+
+computation:
+	title:
+		str
+	abstract:
+		str
+	keywords:
+		str
+	inputDescription:
+		name:
+			str
+		description:
+			str
+	outputDescription:
+		name:
+			str
+		description:
+			str
+	softwareReference:
+		uuid
+	imageDetails:
+		[{'linkage': 'str', 'fileName': 'str', 'fileDescription': 'str', 'imageConstraints': 'NoneType'}]
+	uuid:
+		uuid
+	model:
+		str
+	identifier:
+		[{'url': 'str', 'identifierType': 'str', 'shortUrl': 'str'}]
+	migrationProperty:
+		key:
+			str
+		value:
+			str
+		modified:
+			str
+	responsiblePartyInfo:
+		[{'priority': 'int', 'party': {'firstName': 'str', 'lastName': 'str', 'partyType': 'str', 'description': 'str', 'deliveryPoint': 'str', 'administrativeArea': 'str', 'city': 'str', 'country': 'str', 'postalCode': 'str', 'electronicEmailAddress': 'str', 'phone': 'str', 'onlineResource': 'str'}, 'role': 'str'}]
+	onlineResource:
+		function:
+			str
+		linkage:
+			str
+		name:
+			str
+	review:
+		reviewer:
+			NoneType
+		reviewFrequency:
+			str
+		reviewStatus:
+			str
+		reviewNotes:
+			[int]
 

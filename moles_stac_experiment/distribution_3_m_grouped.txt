@@ -1,9 +1,9 @@
 0:
+	/externalCitations
 	/imageDetails/imageConstraints/useLimitation
 	/imageDetails/imageConstraints/accessConstraints
 	/imageDetails/imageConstraints/accessRoles
 	/childOperation
-	/externalCitations
 	/inputParameter
 	/inspireTheme
 	/topicCategory
@@ -23,9 +23,9 @@
 7:
 	/imageDetails/imageConstraints/licenceURL
 8:
+	/featureOfInterest
 	/authors
 	/date
-	/featureOfInterest
 9:
 	/softwareReference
 10:
@@ -73,19 +73,36 @@
 55:
 	/validTimePeriod
 	/validTimePeriod/startTime
+67:
+	/note/commentator/description
+90:
+	/note/commentator/administrativeArea
+	/note/commentator/phone
+92:
+	/note/commentator/city
+	/note/commentator/country
+	/note/commentator/postalCode
 106:
 	/verticalExtent/units
 113:
 	/independentInstrument
+120:
+	/note/commentator/deliveryPoint
+	/note/commentator/onlineResource
 193:
 	/verticalExtent
 	/verticalExtent/highestLevelBound
 	/verticalExtent/lowestLevelBound
-305:
-	/note/commentator
+246:
+	/note/commentator/firstName
+327:
+	/note/commentator/electronicEmailAddress
 333:
 	/note
 	/note/comments
+	/note/commentator
+	/note/commentator/lastName
+	/note/commentator/partyType
 	/note/date
 395:
 	/parentProject

@@ -1,4 +1,17 @@
 0:
+	observationcollection/externalCitations
+	observationcollection/review/reviewNotes
+	observationcollection/imageDetails/imageConstraints/useLimitation
+	observationcollection/imageDetails/imageConstraints/accessConstraints
+	observationcollection/imageDetails/imageConstraints/accessRoles
+	mobileplatformoperation/childOperation
+	observation/externalCitations
+	observation/inputParameter
+	observation/inspireTheme
+	observation/topicCategory
+	observation/imageDetails/imageConstraints/useLimitation
+	observation/imageDetails/imageConstraints/accessConstraints
+	observation/imageDetails/imageConstraints/accessRoles
 	project/imageDetails/imageConstraints/useLimitation
 	project/imageDetails/imageConstraints/accessConstraints
 	project/imageDetails/imageConstraints/accessRoles
@@ -12,31 +25,11 @@
 	computation/imageDetails/imageConstraints/useLimitation
 	computation/imageDetails/imageConstraints/accessConstraints
 	computation/imageDetails/imageConstraints/accessRoles
-	mobileplatformoperation/childOperation
-	observationcollection/externalCitations
-	observationcollection/review/reviewNotes
-	observationcollection/imageDetails/imageConstraints/useLimitation
-	observationcollection/imageDetails/imageConstraints/accessConstraints
-	observationcollection/imageDetails/imageConstraints/accessRoles
-	observation/externalCitations
-	observation/inputParameter
-	observation/inspireTheme
-	observation/topicCategory
-	observation/imageDetails/imageConstraints/useLimitation
-	observation/imageDetails/imageConstraints/accessConstraints
-	observation/imageDetails/imageConstraints/accessRoles
 1:
-	externalcitation/onlineResource/applicationProfile
-	externalcitation/onlineResource/internalResourceType
-	externalcitation/onlineResource/description
-	externalcitation/responsiblePartyInfo/party/description
-	externalcitation/responsiblePartyInfo/party/deliveryPoint
-	externalcitation/responsiblePartyInfo/party/administrativeArea
-	externalcitation/responsiblePartyInfo/party/city
-	externalcitation/responsiblePartyInfo/party/country
-	externalcitation/responsiblePartyInfo/party/postalCode
-	externalcitation/responsiblePartyInfo/party/phone
-	externalcitation/responsiblePartyInfo/party/onlineResource
+	compositeprocess/onlineResource/applicationProfile
+	compositeprocess/onlineResource/internalResourceType
+	compositeprocess/onlineResource/description
+	compositeprocess/identifier/shortUrl
 	platform/identifier/shortUrl
 	platform/onlineResource/applicationProfile
 	platform/onlineResource/internalResourceType
@@ -59,6 +52,14 @@
 	platform/review/reviewFrequency
 	platform/review/reviewStatus
 	platform/review/reviewNotes
+	result/onlineResource/applicationProfile
+	result/onlineResource/internalResourceType
+	observationcollection/onlineResource/applicationProfile
+	observationcollection/onlineResource/description
+	observationcollection/imageDetails/imageConstraints/licenceURL
+	mobileplatformoperation/onlineResource/applicationProfile
+	mobileplatformoperation/onlineResource/internalResourceType
+	mobileplatformoperation/onlineResource/description
 	instrument/identifier/shortUrl
 	instrument/onlineResource/applicationProfile
 	instrument/onlineResource/description
@@ -80,10 +81,10 @@
 	instrument/review/reviewFrequency
 	instrument/review/reviewStatus
 	instrument/review/reviewNotes
-	compositeprocess/onlineResource/applicationProfile
-	compositeprocess/onlineResource/internalResourceType
-	compositeprocess/onlineResource/description
-	compositeprocess/identifier/shortUrl
+	observation/permission/useLimitation
+	observation/onlineResource/applicationProfile
+	observation/onlineResource/internalResourceType
+	observation/onlineResource/description
 	project/identifier/shortUrl
 	project/onlineResource/applicationProfile
 	project/onlineResource/description
@@ -93,8 +94,25 @@
 	project/review/reviewer/country
 	project/review/reviewer/postalCode
 	project/review/reviewer/phone
-	result/onlineResource/applicationProfile
-	result/onlineResource/internalResourceType
+	externalcitation/onlineResource/applicationProfile
+	externalcitation/onlineResource/internalResourceType
+	externalcitation/onlineResource/description
+	externalcitation/responsiblePartyInfo/party/description
+	externalcitation/responsiblePartyInfo/party/deliveryPoint
+	externalcitation/responsiblePartyInfo/party/administrativeArea
+	externalcitation/responsiblePartyInfo/party/city
+	externalcitation/responsiblePartyInfo/party/country
+	externalcitation/responsiblePartyInfo/party/postalCode
+	externalcitation/responsiblePartyInfo/party/phone
+	externalcitation/responsiblePartyInfo/party/onlineResource
+	acquisition/imageDetails/imageConstraints
+	acquisition/onlineResource/applicationProfile
+	acquisition/onlineResource/internalResourceType
+	acquisition/onlineResource/description
+	acquisition/identifier
+	acquisition/identifier/url
+	acquisition/identifier/identifierType
+	acquisition/identifier/shortUrl
 	computation/identifier/shortUrl
 	computation/onlineResource/applicationProfile
 	computation/onlineResource/internalResourceType
@@ -105,25 +123,10 @@
 	computation/review/reviewer/partyType
 	computation/review/reviewer/electronicEmailAddress
 	computation/review/reviewer/onlineResource
-	mobileplatformoperation/onlineResource/applicationProfile
-	mobileplatformoperation/onlineResource/internalResourceType
-	mobileplatformoperation/onlineResource/description
-	observationcollection/onlineResource/applicationProfile
-	observationcollection/onlineResource/description
-	observationcollection/imageDetails/imageConstraints/licenceURL
-	acquisition/imageDetails/imageConstraints
-	acquisition/onlineResource/applicationProfile
-	acquisition/onlineResource/internalResourceType
-	acquisition/onlineResource/description
-	acquisition/identifier
-	acquisition/identifier/url
-	acquisition/identifier/identifierType
-	acquisition/identifier/shortUrl
-	observation/permission/useLimitation
-	observation/onlineResource/applicationProfile
-	observation/onlineResource/internalResourceType
-	observation/onlineResource/description
 2:
+	observationcollection/onlineResource/internalResourceType
+	observation/submissionUserID
+	observation/imageDetails/imageConstraints/licenceURL
 	project/onlineResource/internalResourceType
 	project/review/reviewNotes
 	project/imageDetails/imageConstraints/licenceURL
@@ -134,10 +137,17 @@
 	computation/imageDetails/imageConstraints/accessCategory
 	computation/imageDetails/imageConstraints/licenceURL
 	computation/imageDetails/imageConstraints/label
-	observationcollection/onlineResource/internalResourceType
-	observation/submissionUserID
-	observation/imageDetails/imageConstraints/licenceURL
 3:
+	observationcollection/review/reviewer/description
+	observationcollection/review/reviewer/deliveryPoint
+	observationcollection/review/reviewer/administrativeArea
+	observationcollection/review/reviewer/city
+	observationcollection/review/reviewer/country
+	observationcollection/review/reviewer/postalCode
+	observationcollection/review/reviewer/phone
+	instrument/onlineResource/internalResourceType
+	project/imageDetails/imageConstraints/accessCategory
+	project/imageDetails/imageConstraints/label
 	externalcitation/edition
 	externalcitation/responsiblePartyInfo
 	externalcitation/responsiblePartyInfo/priority
@@ -147,41 +157,32 @@
 	externalcitation/responsiblePartyInfo/party/partyType
 	externalcitation/responsiblePartyInfo/party/electronicEmailAddress
 	externalcitation/responsiblePartyInfo/role
-	instrument/onlineResource/internalResourceType
-	project/imageDetails/imageConstraints/accessCategory
-	project/imageDetails/imageConstraints/label
 	computation/imageDetails/imageConstraints
-	observationcollection/review/reviewer/description
-	observationcollection/review/reviewer/deliveryPoint
-	observationcollection/review/reviewer/administrativeArea
-	observationcollection/review/reviewer/city
-	observationcollection/review/reviewer/country
-	observationcollection/review/reviewer/postalCode
-	observationcollection/review/reviewer/phone
 4:
-	externalcitation/otherCitationDetails
 	project/imageDetails/imageConstraints
+	externalcitation/otherCitationDetails
 	computation/outputDescription
 	computation/outputDescription/name
 	computation/outputDescription/description
 5:
-	externalcitation/pageNumbers
-	externalcitation/onlineResource/function
 	observationcollection/imageDetails/imageConstraints/accessCategory
 	observationcollection/imageDetails/imageConstraints/label
+	externalcitation/pageNumbers
+	externalcitation/onlineResource/function
 6:
+	observationcollection/imageDetails/imageConstraints
 	externalcitation/publicationType
 	externalcitation/collectiveTitle
 	externalcitation/onlineResource
 	externalcitation/onlineResource/linkage
 	externalcitation/onlineResource/name
-	observationcollection/imageDetails/imageConstraints
 	acquisition/outputDescription/description
 7:
 	compositeprocess/identifier
 	compositeprocess/identifier/url
 	compositeprocess/identifier/identifierType
 8:
+	observation/featureOfInterest
 	externalcitation
 	externalcitation/authors
 	externalcitation/title
@@ -190,13 +191,13 @@
 	externalcitation/model
 	acquisition/outputDescription
 	acquisition/outputDescription/name
-	observation/featureOfInterest
 9:
 	computation/softwareReference
 10:
 	observation/imageDetails/imageConstraints/accessCategory
 	observation/imageDetails/imageConstraints/label
 11:
+	observationcollection/note/commentator/firstName
 	observation/review/reviewer/administrativeArea
 	observation/review/reviewer/postalCode
 	observation/review/reviewer/phone
@@ -205,6 +206,8 @@
 	observation/review/reviewer/description
 	observation/review/reviewer/city
 	observation/review/reviewer/country
+13:
+	observation/note/commentator/description
 14:
 	observation/procedureDescription
 19:
@@ -226,6 +229,12 @@
 	acquisition/onlineResource/name
 28:
 	observationcollection/identifier/shortUrl
+	observation/note/commentator/administrativeArea
+	observation/note/commentator/phone
+30:
+	observation/note/commentator/city
+	observation/note/commentator/country
+	observation/note/commentator/postalCode
 39:
 	observation/removedDataReason
 	observation/removedDataTime
@@ -241,8 +250,12 @@
 	compositeprocess/onlineResource/linkage
 48:
 	observation/validTimePeriod/endTime
+52:
+	observation/note/commentator/deliveryPoint
+	observation/note/commentator/onlineResource
 54:
 	observationcollection/review/reviewer/onlineResource
+	observationcollection/note/commentator/description
 55:
 	observationcollection/review/reviewFrequency
 	observation/validTimePeriod
@@ -256,12 +269,24 @@
 	observationcollection/review/reviewer/electronicEmailAddress
 	observationcollection/review/reviewStatus
 62:
-	observationcollection/note/commentator
+	observationcollection/note/commentator/administrativeArea
+	observationcollection/note/commentator/city
+	observationcollection/note/commentator/country
+	observationcollection/note/commentator/postalCode
+	observationcollection/note/commentator/phone
 66:
 	mobileplatformoperation/location/bboxName
+68:
+	observationcollection/note/commentator/deliveryPoint
+	observationcollection/note/commentator/onlineResource
+72:
+	observationcollection/note/commentator/electronicEmailAddress
 73:
 	observationcollection/note
 	observationcollection/note/comments
+	observationcollection/note/commentator
+	observationcollection/note/commentator/lastName
+	observationcollection/note/commentator/partyType
 	observationcollection/note/date
 82:
 	instrument/imageDetails
@@ -302,21 +327,27 @@
 	instrument/migrationProperty/value
 	instrument/migrationProperty/modified
 193:
+	observation/verticalExtent
+	observation/verticalExtent/highestLevelBound
+	observation/verticalExtent/lowestLevelBound
 	computation/migrationProperty
 	computation/migrationProperty/key
 	computation/migrationProperty/value
 	computation/migrationProperty/modified
-	observation/verticalExtent
-	observation/verticalExtent/highestLevelBound
-	observation/verticalExtent/lowestLevelBound
 198:
 	compositeprocess/responsiblePartyInfo/party/country
+235:
+	observation/note/commentator/firstName
 243:
 	compositeprocess/responsiblePartyInfo/party/deliveryPoint
-	observation/note/commentator
+255:
+	observation/note/commentator/electronicEmailAddress
 260:
 	observation/note
 	observation/note/comments
+	observation/note/commentator
+	observation/note/commentator/lastName
+	observation/note/commentator/partyType
 	observation/note/date
 267:
 	platform/responsiblePartyInfo/party/description
@@ -389,10 +420,10 @@
 660:
 	observationcollection/imageDetails/fileDescription
 664:
-	instrument/responsiblePartyInfo/party/postalCode
 	observationcollection/imageDetails
 	observationcollection/imageDetails/linkage
 	observationcollection/imageDetails/fileName
+	instrument/responsiblePartyInfo/party/postalCode
 665:
 	instrument/responsiblePartyInfo/party/phone
 666:
@@ -491,14 +522,14 @@
 	computation/imageDetails/fileName
 	computation/imageDetails/fileDescription
 1346:
+	observationcollection/identifier
+	observationcollection/identifier/url
+	observationcollection/identifier/identifierType
 	instrument
 	instrument/title
 	instrument/abstract
 	instrument/uuid
 	instrument/model
-	observationcollection/identifier
-	observationcollection/identifier/url
-	observationcollection/identifier/identifierType
 1380:
 	project/responsiblePartyInfo/party/description
 1400:
@@ -514,11 +545,11 @@
 1481:
 	platform/responsiblePartyInfo/party/deliveryPoint
 1490:
+	mobileplatformoperation/responsiblePartyInfo/party/firstName
 	project
 	project/title
 	project/uuid
 	project/model
-	mobileplatformoperation/responsiblePartyInfo/party/firstName
 1519:
 	mobileplatformoperation/operationTime/endTime
 1533:

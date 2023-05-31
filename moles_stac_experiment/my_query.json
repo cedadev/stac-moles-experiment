@@ -1,5 +1,125 @@
 
-2023-05-31 10:10:35.475023
+2023-05-31 14:29:07.001768
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "match_phrase": []
+          }
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:29:22.021669
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "match_phrase": []
+          }
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:29:43.586230
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "match_phrase": []
+          }
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:31:28.032498
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "match_phrase": []
+          }
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:32:00.864630
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "match_phrase": []
+          }
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:33:05.182122
 {
   "query": {
     "bool": {
@@ -10,7 +130,7 @@
         {
           "terms": {
             "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
           }
         }
@@ -18,7 +138,7 @@
     }
   }
 }
-2023-05-31 10:10:35.484139
+2023-05-31 14:33:05.223362
 {
   "query": {
     "bool": {
@@ -29,13 +149,13 @@
         {
           "terms": {
             "model": [
-              "acquisition"
+              "project"
             ]
           }
         },
         {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -47,7 +167,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:10:35.506602
+2023-05-31 14:33:27.960687
 {
   "query": {
     "bool": {
@@ -56,8 +176,34 @@
           "match_all": {}
         },
         {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:33:27.975691
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -69,7 +215,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:10:35.681409
+2023-05-31 14:34:40.265380
 {
   "query": {
     "bool": {
@@ -80,58 +226,7 @@
         {
           "terms": {
             "uuid": [
-              "c7fa005e2095425392b18adbd7b40617",
-              "70d5f61227a6e5569523b6a570f70097",
-              "5fa2529b973e47ae38ab3557f2018ef4",
-              "01ec9f27539c4be481a4bfc83bfb7fdc",
-              "ea2d5d8bce505ad4b10e06b45191883b",
-              "7464dd2803774dbbb21bd97fddccaa39",
-              "b4c028814a666a651f52f2b37a97c7c7",
-              "6d9a74e917d04cde9f0f7fa5fb3a9dd4",
-              "d5436a7c6e20464e94a7d6bf62c88c3d",
-              "5971cb20fae94540b862ae3ed3204c3f",
-              "bbf4d911abd4446eaa8c3ed79edb9593",
-              "43a9c14c56160fbe2a76fc3ddda612f3",
-              "93b4fb9fa362a26bbdfee5bb61055597",
-              "bdc3a85e549f42c79b61ea34b412eb63",
-              "a7a9bdfd26c101e4bdcfde1c8d158272",
-              "f809e61a61ee4eb9a64d4957c3e5bfac",
-              "0236ade7cd5f4986bb7f1722801ff204",
-              "274b15d125d9373ad9626a8c3907d1cc",
-              "3e7ad71f09c244318f9bddf92e5fcc4b",
-              "c1145ccc4b6d4310a4fc7cce61041b63",
-              "1de1cceb8351939bf87973d7cbadfc6c",
-              "8177330a5f2443059b7107188c2ab3c1",
-              "b3e7cd96f558ca807c5b7a4c28449b9e",
-              "29cdcc9438b94508aab17bb5ebcdfd51",
-              "0f79875d84734e1baf938249ef5517ff",
-              "9f7a888398fcb9b49c9a7e380f713e20",
-              "66dd0a3dec2498a477550037540a97bd"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "model",
-    "uuid"
-  ],
-  "_source": false,
-  "size": 100
-}
-2023-05-31 10:11:21.171726
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
           }
         }
@@ -139,7 +234,7 @@
     }
   }
 }
-2023-05-31 10:11:21.183271
+2023-05-31 14:34:40.303681
 {
   "query": {
     "bool": {
@@ -150,13 +245,13 @@
         {
           "terms": {
             "model": [
-              "acquisition"
+              "project"
             ]
           }
         },
         {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -168,7 +263,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:11:21.207533
+2023-05-31 14:35:18.053199
 {
   "query": {
     "bool": {
@@ -177,8 +272,34 @@
           "match_all": {}
         },
         {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:35:18.065872
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
           "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -190,7 +311,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:11:21.373089
+2023-05-31 14:35:52.490606
 {
   "query": {
     "bool": {
@@ -201,39 +322,7 @@
         {
           "terms": {
             "uuid": [
-              "13957b5b86f34f53a2e1aca9521993a3",
-              "da4da4fad5a74db486db3e4a13adbe9d",
-              "7e23b82ec3bdc8e5297c0b623697c559",
-              "8e0a2b7a90074b78afbb70b6441658cb",
-              "d5436a7c6e20464e94a7d6bf62c88c3d",
-              "0236ade7cd5f4986bb7f1722801ff204",
-              "0f79875d84734e1baf938249ef5517ff",
-              "bdc3a85e549f42c79b61ea34b412eb63"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "model",
-    "uuid"
-  ],
-  "_source": false,
-  "size": 100
-}
-2023-05-31 10:16:03.113803
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
           }
         }
@@ -241,7 +330,7 @@
     }
   }
 }
-2023-05-31 10:16:03.128372
+2023-05-31 14:35:52.504770
 {
   "query": {
     "bool": {
@@ -252,13 +341,13 @@
         {
           "terms": {
             "model": [
-              "acquisition"
+              "project"
             ]
           }
         },
         {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -270,53 +359,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:16:03.147530
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:16:04.747542
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": []
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "model",
-    "uuid"
-  ],
-  "_source": false,
-  "size": 100
-}
-2023-05-31 10:16:28.595118
+2023-05-31 14:36:01.821045
 {
   "query": {
     "bool": {
@@ -327,7 +370,7 @@
         {
           "terms": {
             "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
           }
         }
@@ -335,7 +378,7 @@
     }
   }
 }
-2023-05-31 10:16:28.603839
+2023-05-31 14:36:01.831990
 {
   "query": {
     "bool": {
@@ -346,13 +389,13 @@
         {
           "terms": {
             "model": [
-              "acquisition"
+              "project"
             ]
           }
         },
         {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -364,30 +407,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:16:28.619823
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:17:01.016280
+2023-05-31 14:36:08.342938
 {
   "query": {
     "bool": {
@@ -398,7 +418,7 @@
         {
           "terms": {
             "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
           }
         }
@@ -406,7 +426,7 @@
     }
   }
 }
-2023-05-31 10:17:01.026703
+2023-05-31 14:36:08.355472
 {
   "query": {
     "bool": {
@@ -417,13 +437,13 @@
         {
           "terms": {
             "model": [
-              "acquisition"
+              "project"
             ]
           }
         },
         {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -435,30 +455,7 @@
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:17:01.063928
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:17:01.515996
+2023-05-31 14:38:30.374858
 {
   "query": {
     "bool": {
@@ -469,33 +466,7 @@
         {
           "terms": {
             "uuid": [
-              "7e23b82ec3bdc8e5297c0b623697c559",
-              "da4da4fad5a74db486db3e4a13adbe9d"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "model",
-    "uuid"
-  ],
-  "_source": false,
-  "size": 100
-}
-2023-05-31 10:23:30.972099
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
           }
         }
@@ -503,7 +474,7 @@
     }
   }
 }
-2023-05-31 10:23:30.980459
+2023-05-31 14:38:30.397214
 {
   "query": {
     "bool": {
@@ -514,1108 +485,13 @@
         {
           "terms": {
             "model": [
-              "acquisition"
+              "project"
             ]
           }
         },
         {
           "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "instrumentPlatformPair"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:23:30.999711
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:23:31.049402
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:24:35.174084
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:24:35.182563
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "instrumentPlatformPair"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:24:35.207581
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:24:35.276809
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:25:18.271414
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:25:18.280981
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "instrumentPlatformPair"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:25:18.300415
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:25:18.352038
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:25:37.306492
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:25:37.314517
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "instrumentPlatformPair"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:25:37.334717
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:25:37.387465
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:26:20.108613
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:26:20.119978
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "instrumentplatformpair"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:26:20.141134
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:26:20.194817
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:27:34.805460
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:27:34.816047
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "title"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:27:34.837796
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:27:34.891369
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:28:00.506705
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:28:00.516110
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "responsiblePartyInfo"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:28:00.538018
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:28:00.589302
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:42:51.194095
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:42:51.205840
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "responsiblePartyInfo"
-  ],
-  "size": 10000
-}
-2023-05-31 10:42:51.227705
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:42:51.290089
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:44:11.036073
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:44:11.046862
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "responsiblePartyInfo"
-  ],
-  "size": 10000
-}
-2023-05-31 10:44:11.071632
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:44:11.112473
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:44:51.309504
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:44:51.322576
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "responsiblePartyInfo"
-  ],
-  "size": 10000
-}
-2023-05-31 10:44:51.362040
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:44:51.420827
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:46:43.441838
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "c7fa005e2095425392b18adbd7b40617"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:46:43.466278
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "c7fa005e2095425392b18adbd7b40617"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "responsiblePartyInfo"
-  ],
-  "size": 10000
-}
-2023-05-31 10:46:43.497544
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(0f79875d84734e1baf938249ef5517ff) OR (0236ade7cd5f4986bb7f1722801ff204) OR (bdc3a85e549f42c79b61ea34b412eb63) OR (d5436a7c6e20464e94a7d6bf62c88c3d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:46:43.578002
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(13957b5b86f34f53a2e1aca9521993a3) OR (8e0a2b7a90074b78afbb70b6441658cb)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:46:56.858169
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "99b435052c5a4547bfc03f31249d5bf3",
-              "c5a778cd1ebc4d928890ec1ffca83521",
-              "1a354cb774d14dec9fe9a5cdc17b4507",
-              "da4da4fad5a74db486db3e4a13adbe9d",
-              "9f680dcc8eb943ccbecbbe62f4b95752",
-              "7a222739bad13cc3e60b3d615335f2f5",
-              "76765687413a4a698a6c4b056de2e66c",
-              "7e23b82ec3bdc8e5297c0b623697c559",
-              "922c7e6cc7d04fa78ca9b30cd4d646c8",
-              "23ca6bfcca9342a18cc15e7b2f3e7e60",
-              "edbc618730c043a383b8fa9b8200cfb6"
-            ]
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "model",
-    "uuid"
-  ],
-  "_source": false,
-  "size": 100
-}
-2023-05-31 10:56:59.455442
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "edbc618730c043a383b8fa9b8200cfb6"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:57:15.393274
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "uuid": [
-              "edbc618730c043a383b8fa9b8200cfb6"
-            ]
-          }
-        }
-      ]
-    }
-  }
-}
-2023-05-31 10:57:15.415160
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "terms": {
-            "model": [
-              "acquisition"
-            ]
-          }
-        },
-        {
-          "query_string": {
-            "query": "edbc618730c043a383b8fa9b8200cfb6"
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
@@ -1624,55 +500,10 @@
   "fields": [
     "uuid"
   ],
-  "size": 10000
-}
-2023-05-31 10:57:15.476826
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(d5436a7c6e20464e94a7d6bf62c88c3d) OR (0236ade7cd5f4986bb7f1722801ff204) OR (06d4b5dcb8c04c398dd7d20a27c35c95) OR (79c744b4640c41408f3e00394d4cebcb) OR (25b0ca53063f4e0a85d01cf6393aaa8d) OR (0fc9cbea21d2402bbde4c6442a789c69) OR (f180256078ab4930bebaa55adca36310) OR (5c65c4f8b22d446fb27afbea115dde6d)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
   "_source": false,
   "size": 10000
 }
-2023-05-31 10:57:15.587866
-{
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "match_all": {}
-        },
-        {
-          "query_string": {
-            "query": "(3e90691af2e64aaba32d981fe0674fba) OR (27a7e06aa1854afa9f9cb8c223c421ab) OR (0c8fdb5f0f064367814fb5a86261ee56) OR (2635feb8d23b4b58abb70a2ee8c5725b)"
-          }
-        }
-      ]
-    }
-  },
-  "fields": [
-    "uuid",
-    "model"
-  ],
-  "_source": false,
-  "size": 10000
-}
-2023-05-31 10:57:16.865029
+2023-05-31 14:41:08.400660
 {
   "query": {
     "bool": {
@@ -1683,27 +514,2008 @@
         {
           "terms": {
             "uuid": [
-              "65564b1bbd5c4d76aa0638adb40fbcc8",
-              "c7fa005e2095425392b18adbd7b40617",
-              "3a58d003ac2f4236b17dd66c147b6f51",
-              "3539b96f18644d78aae71517fecfb7e2",
-              "9d51caf503fc4237a01b6242e4258503",
-              "7e23b82ec3bdc8e5297c0b623697c559",
-              "5be973861dfc6055f64129577cf1f636",
-              "14d7491743e7425a83b2da6abe4493b2",
-              "1105a30c49a01dde0032515cadb056ad",
-              "b2f21e4972c90504ed837367b06acc91",
-              "100dacbe559b4004a6d024cbea0aa617"
+              "affe775e8d8890a4556aec5bc4e0b45c"
             ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:41:08.425118
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
           }
         }
       ]
     }
   },
   "fields": [
-    "model",
     "uuid"
   ],
   "_source": false,
-  "size": 100
+  "size": 10000
+}
+2023-05-31 14:41:17.031709
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:41:17.063105
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:41:32.025716
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:41:32.069794
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:41:42.264561
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:41:42.302077
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:41:50.167908
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:41:50.177860
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:41:58.861136
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:41:58.871849
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:42:08.002036
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:42:08.016138
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:42:16.174067
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:42:16.184834
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:42:25.718450
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:42:25.731117
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:42:32.862447
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:42:32.891436
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:42:40.945669
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:42:40.959876
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:42:49.079176
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:42:49.089603
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:43:57.919390
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:43:57.937666
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:01.337751
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:01.346521
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:02.916145
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:02.929930
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:04.708503
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:04.919655
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:07.072096
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:07.238663
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:08.834712
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:08.845400
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:10.508181
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:10.521875
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:12.712470
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:14.507738
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:16.553511
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:16.576750
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:44:18.906375
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:44:19.133553
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:20.159536
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:20.422815
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:22.201421
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:22.213253
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:24.270571
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:24.322836
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:26.400461
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:26.411107
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:28.239936
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:28.315388
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:30.037240
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:30.047724
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:32.219975
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:32.265266
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:33.838577
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:33.847862
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:35.691566
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:35.702335
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:46:37.246109
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:46:39.814353
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:06.267335
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:49:06.281983
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:14.605435
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:49:14.615993
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:23.328519
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:49:24.300137
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:32.636330
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:49:33.360045
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:41.573599
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:49:41.890448
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:50.447678
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:49:51.083211
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:49:59.236248
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:50:01.045661
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:50:10.104579
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:50:10.131381
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:50:19.392335
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:50:19.405049
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
+}
+2023-05-31 14:50:26.689525
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "uuid": [
+              "affe775e8d8890a4556aec5bc4e0b45c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+2023-05-31 14:50:26.701604
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        },
+        {
+          "terms": {
+            "model": [
+              "project"
+            ]
+          }
+        },
+        {
+          "query_string": {
+            "query": "affe775e8d8890a4556aec5bc4e0b45c"
+          }
+        }
+      ]
+    }
+  },
+  "fields": [
+    "uuid"
+  ],
+  "_source": false,
+  "size": 10000
 }

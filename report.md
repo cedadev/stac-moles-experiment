@@ -78,11 +78,28 @@ ElasticSearch allows geospatial searching, however it requires data to be in the
 ### Analyses
 `analysis_of_size.csv` shows comparison in number of models' instances, size in MB and number of fields between fixtures.
 `analysis_of_deepness.txt` shows fields, grouped by level of deepness where `dep(data['a']['b']) == 2`. 
-`distribution_3.txt` shows fields grouped by model and number of non empty values within DB.
+`distribution_3.txt` shows fields grouped by model, and number of non empty values within DB.
 `distribution_3_grouped.txt` shows the same as above, but grouped by the number of non empty values.
 `distribution_3_m_grouped.txt` shows the same as above, but model is ignored, to reduce number of combinations, and expose fields, which are actually rarely used.
 `rare_fields_with_uuids.txt` shows pairs of uuids and model's names for every field with less than 15 non empty values within DB.
 `runtime.tsv` compares times of executing the same, massive query (FAAM collection), on both `stac-moles-test` and `moles-haystack` indexes and shows that `stac-moles-test` responses 4x slower (I suppose it due to the amount of data stored on the index).
 
 ### Elasticsearch
+`fixture3.5.json.gz` was put on the `stac-moles-test` index. I created `searching_examples.ipynb` notebook to present typical use cases. `search()` method takes few optional keyword arguments and returns list of `hits` from ES response. 
 
+`bbox = [[W, N],[E, S]]` specifies bounding box 
+
+`bbox_relation = 'intersect/within'` specifies relation
+
+`fields = ['model']` specifies list of fields that will be taken from the ES
+
+`source = True` set to False if you want to get only fields from the fields arg
+
+`size = 100` max number of records to be returned 
+
+`query_string = 'ozone'` free text search
+
+`**terms` filtering by specified field
+
+#### Emulating catalogue
+One of the most resource-demanding operation in the catalogue is collecting and displaying records related to the record. Such relation maybe be going through a few levels of MOLES e.g. In order to get every platform associated with the instrument via instrument platform pair we have to get every acquisition and then IPP from each of them. `get_related_objects()` takes uuid of the record and returns list of the uuids of related records. Maximal number of ES requests needed to get related records for any record type is 4 (see number of calls of `search()` method inside any submethod of `get_related_objects()`). According to the data from `runtime.csv` file retrieving observations related to the FAAM collections takes 4 times longer comparing to the current Haystack index. I suppose the reason is that the number of records on 

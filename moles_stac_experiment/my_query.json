@@ -11,9 +11,15 @@
               "computation"
             ]
           }
+        },
+        {
+          "query_string": {
+            "query": "sea"
+          }
         }
       ]
     }
   },
-  "size": 1
+  "size": 1,
+  "from": 0
 }

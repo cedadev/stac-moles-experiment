@@ -14,7 +14,7 @@
         },
         {
           "query_string": {
-            "query": "sea"
+            "query": "ozone"
           }
         }
       ]

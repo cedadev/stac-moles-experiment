@@ -1,0 +1,32 @@
+{
+    "size": 0,
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {
+              "type": {
+                "value": "file"
+              }
+            }
+          }
+        ],
+        "must_not": [
+          {
+            "exists": {
+              "field": "removed"
+            }
+          }
+        ]
+      }
+    },
+    "aggs": {
+      "dirs": {
+        "terms": {
+          "field": "phenomena.agg_string.keyword",
+          "size": 100000
+        }
+      }
+    }
+  }
+  

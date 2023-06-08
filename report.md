@@ -77,11 +77,17 @@ ElasticSearch allows geospatial searching, however it requires data to be in the
 
 ### Analyses
 `analysis_of_size.csv` shows comparison in number of models' instances, size in MB and number of fields between fixtures.
+
 `analysis_of_deepness.txt` shows fields, grouped by level of deepness where `dep(data['a']['b']) == 2`. 
+
 `distribution_3.txt` shows fields grouped by model, and number of non empty values within DB.
+
 `distribution_3_grouped.txt` shows the same as above, but grouped by the number of non empty values.
+
 `distribution_3_m_grouped.txt` shows the same as above, but model is ignored, to reduce number of combinations, and expose fields, which are actually rarely used.
+
 `rare_fields_with_uuids.txt` shows pairs of uuids and model's names for every field with less than 15 non empty values within DB.
+
 `runtime.tsv` compares times of executing the same, massive query (FAAM collection), on both `stac-moles-test` and `moles-haystack` indexes and shows that `stac-moles-test` responses 4x slower (I suppose it due to the amount of data stored on the index).
 
 ### Elasticsearch
